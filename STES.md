@@ -11,3 +11,5 @@ https://www.youtube.com/watch?v=qlrCptpwtgs
 
 # react router / netlify 
 https://medium.com/@sschannak/netlify-and-react-router-1537aebe6256
+
+    1. `npm install react-router-dom`
