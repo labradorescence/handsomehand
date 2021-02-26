@@ -1,14 +1,13 @@
 import React from 'react'
 import './App.css';
-import Gallery from './components/Gallery'
+import Portfolio from './components/Portfolio'
 
 class App extends React.Component {
   render(){
   
     return (
-    <div className="App">
-        
-        <Gallery></Gallery>
+    <div className="App">       
+        <Portfolio></Portfolio>
     </div>
     )
 
