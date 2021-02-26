@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css';
+import Home from './components/Home';
 import Portfolio from './components/Portfolio';
 import Nav from './components/Nav';
 import About from './components/About';
@@ -11,6 +12,7 @@ function App() {
       <Router>
           <div className="App">
             <Nav />
+            <Route path="/" component={Home}/>
             <Route path="/about" component={About}/>
             <Route path="/contact" component={Contact}/>
             <Route path="/portfolio" component={Portfolio}/>

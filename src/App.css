@@ -8,8 +8,7 @@
     justify-content: space-around;
     align-items: center;
     min-height: 10vh;
-    background-color: rgb(5, 48, 48);
-    color:white
+    color:rgb(5, 48, 48);
 }
 
 .nav-links{
@@ -17,5 +16,5 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+
 }
