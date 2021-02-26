@@ -8,10 +8,10 @@ function Nav() {
             <h3>menu nav bar</h3>
             
             <ul className="nav-links">
-                <Link to="/"> <li> home </li></Link>
-                <Link to ="/about">About</Link>
-                <Link to="/portfolio">Portfolio</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/">  HOME  </Link>
+                <Link to ="/about">ABOUT</Link>
+                <Link to="/portfolio">PORTFOLIO</Link>
+                <Link to="/contact">CONTACT</Link>
             </ul>
         </nav>
     )
