@@ -8,11 +8,11 @@ function Nav() {
         <nav className = "nav">
             <h3> HANDSOME HAND </h3>
             
-            <ul className="nav-links">
-                <Link to="/">  HOME  </Link>
-                <Link to="/about">ABOUT</Link>
-                <Link to="/portfolio">PORTFOLIO</Link>
-                <Link to="/contact">CONTACT</Link>
+            <ul className="parent">
+                <Link to="/" className="child">  HOME  </Link>
+                <Link to="/about" className = "child">ABOUT</Link>
+                <Link to="/portfolio" className="child">PORTFOLIO</Link>
+                <Link to="/contact" className="child" >CONTACT</Link>
             </ul>
         </nav>
     )
