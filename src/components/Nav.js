@@ -9,10 +9,10 @@ function Nav() {
             <h3> HANDSOME HAND </h3>
             
             <ul className="parent">
-                <Link to="/" className="child">  HOME  </Link>
-                <Link to="/about" className = "child">ABOUT</Link>
-                <Link to="/portfolio" className="child">PORTFOLIO</Link>
-                <Link to="/contact" className="child" >CONTACT</Link>
+                <Link to="/" className="child1">  HOME  </Link>
+                <Link to="/about" className = "child2">ABOUT</Link>
+                <Link to="/portfolio" className="child3">PORTFOLIO</Link>
+                <Link to="/contact" className="child4" >CONTACT</Link>
             </ul>
         </nav>
     )

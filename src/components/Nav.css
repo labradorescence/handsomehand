@@ -1,21 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid red;
+}
 .nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 10vh;
     color: white;
+    border: 1px solid red;
 }
 
 .parent{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: left;
-    color: white;
-
-
+    border: 1px solid red;
 }
 
-.child{
+.child1{
+    background-color: chocolate;
     color: white;
+    border: 1px solid red;
+}
+
+.child2{
+    background-color: bisque;
+    color: white;
+    border: 1px solid red;
+}
+
+.child3{
+    background-color: coral;
+    color: white;
+    border: 1px solid red;
+}
+
+.child4{
+    background-color: cornflowerblue;
+    color: white;
+    border: 1px solid red;
 }
