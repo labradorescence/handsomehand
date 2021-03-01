@@ -12,6 +12,8 @@ const Button = styled.button`
   font-family: sans-serif;
   color: white;
   background-color: orange;
+  padding: 200px;
+  border-radius: 1000%
 `
 
 function App() {  
