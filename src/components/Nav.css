@@ -8,32 +8,42 @@
 .nav {
     color: white;
     border: 1px solid red;
+
 }
 
 .parent{
     border: 1px solid red;
+
 }
 
 .child1{
     background-color: chocolate;
     color: white;
     border: 1px solid red;
+    text-decoration:none;
+    font-weight: bold;  
 }
 
 .child2{
     background-color: bisque;
     color: white;
     border: 1px solid red;
+    text-decoration:none;
+    font-weight: bold;  
 }
 
 .child3{
     background-color: coral;
     color: white;
     border: 1px solid red;
+    text-decoration:none;
+    font-weight: bold;  
 }
 
 .child4{
     background-color: cornflowerblue;
     color: white;
     border: 1px solid red;
+    text-decoration:none;
+    font-weight: bold;  
 }

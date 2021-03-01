@@ -7,14 +7,12 @@ import About from './components/About';
 import Contact from './components/Contact';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-
-
 function App() {  
 
     return (
       <Router>
           <div className="App">
-            
+
             <Nav />
 
             <Switch>
