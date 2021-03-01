@@ -10,10 +10,14 @@ import styled from 'styled-components'
 
 const Button = styled.button`
   font-family: sans-serif;
+  font-size: 5rem;
   color: white;
   background-color: orange;
   padding: 200px;
-  border-radius: 1000%
+  border-radius: 1000%;
+  &:hover {
+    background: lightblue;
+  }
 `
 
 function App() {  
