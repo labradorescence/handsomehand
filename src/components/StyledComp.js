@@ -1,32 +1,20 @@
 import React from 'react'
 import '../App.css';
-import styled, { ThemeProvider } from 'styled-components'
+import styled, { ThemeProvider} from 'styled-components';
+import Button from './StyledButton';
 
 const theme = {
-    primary: 'orange',
-    secondary: 'green'
+    primary: 'green',
+    alert: 'aquamarine',
+    font: 'helvetica',
+    fontSize: '10rem'
 }
-
-const Button = styled.button`
-  padding: 200px;
-  border-radius: 1000%;
-
-  background-color: ${(props) => props.theme.primary};
-  font-family: sans-serif;
-  font-size: 5rem;
-  color: white;
-
-
-  &:hover {
-    background: lightblue;
-  }
-`
 
 export default function StyledComp() {  
     return (
         <div>
         <ThemeProvider theme={theme}>
-        <Button primary> styled button </Button>
+            <Button color="alert"> styled button </Button>
         </ThemeProvider>
         </div>
     )
