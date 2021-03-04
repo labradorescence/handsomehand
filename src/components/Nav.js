@@ -1,5 +1,4 @@
 import React from 'react'
-import '../App.css';
 import { Link } from 'react-router-dom';
 import './Nav.css'
 
@@ -8,7 +7,7 @@ function Nav() {
         <nav className = "nav">
             <h3> HANDSOME HAND </h3>
             
-            <ul className="parent">
+            <ul>
                 <Link to="/">HOME</Link>
                 <Link to="/about">ABOUT</Link>
                 <Link to="/portfolio">PORTFOLIO</Link>
