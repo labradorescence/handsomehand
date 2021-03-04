@@ -1,0 +1,31 @@
+.parent{
+    /* border: 1px solid red; */
+}
+
+.child1{
+    background-color: chocolate;
+    color: white;
+    text-decoration:none;
+    font-weight: bold;  
+}
+
+.child2{
+    background-color: bisque;
+    color: white;
+    text-decoration:none;
+    font-weight: bold;  
+}
+
+.child3{
+    background-color: coral;
+    color: white;
+    text-decoration:none;
+    font-weight: bold;  
+}
+
+.child4{
+    background-color: cornflowerblue;
+    color: white;
+    text-decoration:none;
+    font-weight: bold;  
+}
