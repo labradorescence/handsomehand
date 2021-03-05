@@ -1,57 +1,64 @@
 .nav {
+    /* border: 1px solid red; */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 15vh;
-    /* border: 1px solid red; */
+    height: 20vh;
+
+    flex-basis: 100%;
+    flex-wrap: wrap;
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    flex-basis: 100%;
 }
 
 .logo{
-    justify-content: flex-start;
     /* border: 1px solid red; */
-    width: 20%;
+    justify-content: flex-start;
+    flex-basis: 20%;
+    
     font-size: 2rem;
     color: white;
 }
 
 .navLink{
     /* border: 1px solid black; */
-    width: 80vh;
+    display: flex;
+    flex-basis: 80%;
     height: 10vh;
     justify-content: flex-end;
-    display: flex;
     justify-content: space-evenly;
     align-items: center;
-    text-decoration:none;
+    flex-wrap: wrap;
+
     font-weight: bold;  
-    color: white;
     font-size: 2rem;
 }
 
-.about{
-    text-decoration:none;
-    color:white;
-    text-shadow: 0 0 5px black;
-
-}
-
-.home{
+.navHome{
     text-decoration:none; 
     color: #fff;
     text-shadow: 0 0 5px black;
+    flex: 1 1 300px;
 }
 
-.port{
+.navAbout{
+    text-decoration:none;
+    color:white;
+    text-shadow: 0 0 5px black;
+    flex: 1 1 300px;
+}
+
+
+.navPort{
     text-decoration:none; 
     color:#fff;
     text-shadow: 0 0 5px black;
+    flex: 1 1 300px;
 }
 
-.cont{
+.navCont{
     text-decoration:none;
-    color:#e1ad01;
+    color:white;
     text-shadow: 0 0 5px black;
+    flex: 1 1 300px;
 }
