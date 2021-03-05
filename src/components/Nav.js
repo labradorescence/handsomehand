@@ -7,12 +7,12 @@ function Nav() {
         <nav className = "nav">
             <h3> HANDSOME HAND </h3>
             
-            <ul>
-                <Link to="/">HOME</Link>
-                <Link to="/about">ABOUT</Link>
-                <Link to="/portfolio">PORTFOLIO</Link>
-                <Link to="/contact">CONTACT</Link>
-            </ul>
+            <div className ="navLink">
+                <Link to="/" className = "home">HOME</Link>
+                <Link to="/about" className = "about">ABOUT</Link>
+                <Link to="/portfolio" className = "port">PORTFOLIO</Link>
+                <Link to="/contact" className = "cont">CONTACT</Link>
+            </div>
         </nav>
     )
 }

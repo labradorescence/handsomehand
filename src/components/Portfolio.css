@@ -9,10 +9,16 @@
 .parent{
     /* border: 1px solid red; */
     height: 100vh;
-    border: 20px solid red;
+    border: 20px solid purple;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
 }
 
 .child1{
+
+    height: 200px;
     background-color: chocolate;
     color: white;
     text-decoration:none;
@@ -20,6 +26,8 @@
 }
 
 .child2{
+    width: 200px;
+    height: 200px;
     background-color: bisque;
     color: white;
     text-decoration:none;
@@ -27,6 +35,8 @@
 }
 
 .child3{
+    width: 200px;
+    height: 200px;
     background-color: coral;
     color: white;
     text-decoration:none;
@@ -34,6 +44,8 @@
 }
 
 .child4{
+    width: 200px;
+    height: 200px;
     background-color: cornflowerblue;
     color: white;
     text-decoration:none;

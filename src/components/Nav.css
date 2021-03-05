@@ -1,9 +1,50 @@
 .nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
     height: 15vh;
-    color: white;
     border: 1px solid red;
     font-size: 10 rem;
+}
+
+.navLink{
+    border: 1px solid black;
+    width: 100vh;
+    height: 10vh;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration:none;
+    font-weight: bold;  
+    color: white;
+    font-size: 2rem;
+}
+
+.about{
+    text-decoration:none;
+    font-weight: bold;  
+    color: #e1ad01;
+    text-shadow: 0 0 5px #808080;
+}
+
+.home{
+    text-decoration:none;
+    font-weight: bold;  
+    color: #e1ad01;
+    text-shadow: 0 0 5px black;
+}
+
+.port{
+    text-decoration:none;
+    font-weight: bold;  
+    color:#e1ad01;
+    text-shadow: 0 0 5px black;
+}
+
+.cont{
+    text-decoration:none;
+    font-weight: bold;  
+    color:#e1ad01;
+    text-shadow: 0 0 5px black;
 }
