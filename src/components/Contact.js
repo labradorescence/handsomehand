@@ -1,5 +1,6 @@
 import React from 'react'
-import ContactForm from './ContactForm'
+import ContactForm from './ContactForm';
+import FormMock from './FormMock';
 
 function Contact() {  
     return (
@@ -7,6 +8,8 @@ function Contact() {
     <h1> CONTACT </h1>
     <h2> WORK WITH ME </h2>
 
+    <FormMock></FormMock>
+    
     <p>
     Handmade lettering is a priceless investment for any business, brand or personal project that needs to stand apart. When you work with me, you are getting the benefit of 12 years of letterform obsession, a keen eye for color and spatial design, as well as thoughtful and generous consulting around small design decisions that make all the difference.
     </p>
@@ -19,7 +22,6 @@ function Contact() {
     handsomehandsigns@gmail.com
     </p>
 
-    <ContactForm></ContactForm>
 
     <p>
     Thank you for choosing hand painted signs! I look forward to hearing from you.
@@ -34,6 +36,9 @@ function Contact() {
     ~I do not offer commercial installation
     ~Any of my designs are not to be duplicated or reproduced, unless we discuss an "unlimited use" package. Reproduction without my permission may result in legal repercussions. 
     </p>
+
+    <ContactForm></ContactForm>
+
     </div>
     )
 }

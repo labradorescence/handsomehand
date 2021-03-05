@@ -7,22 +7,7 @@ export default function Portfolio (){
         <div>
         <h1> PORTFOLIO </h1>
 
-        <div className="parent">
-                <div className="child1"> 
-                child 1 </div>
-
-                <div className="child2"> 
-                child 2 </div>
-
-                <div className="child3"> 
-                child 3 </div>
-
-                <div className="child4"> 
-                child 4 </div>
-        </div>
-
-        <StyledComp> styled button </StyledComp>
-
+        {/* <StyledComp> styled button </StyledComp> */}
 
         </div>
     )

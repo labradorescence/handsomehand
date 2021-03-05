@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function ContactForm() {  
     return (
     <div>       
@@ -26,6 +27,9 @@ function ContactForm() {
         <input type="text"></input><br></br>
         </form>
     </p>
+
+
+
     </div>
     )
 }
