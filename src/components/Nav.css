@@ -3,17 +3,23 @@
     align-items: center;
     justify-content: space-between;
     height: 15vh;
-    border: 1px solid red;
-    font-size: 10 rem;
+    /* border: 1px solid red; */
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-basis: 100%;
 }
 
 .logo{
     justify-content: flex-start;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    width: 20%;
+    font-size: 2rem;
+    color: white;
 }
+
 .navLink{
-    border: 1px solid black;
-    width: 300vh;
+    /* border: 1px solid black; */
+    width: 80vh;
     height: 10vh;
     justify-content: flex-end;
     display: flex;
@@ -27,29 +33,25 @@
 
 .about{
     text-decoration:none;
-    font-weight: bold;  
     color:white;
     text-shadow: 0 0 5px black;
-    font: sans-serif;
+
 }
 
 .home{
-    text-decoration:none;
-    font-weight: bold;  
+    text-decoration:none; 
     color: #fff;
     text-shadow: 0 0 5px black;
 }
 
 .port{
-    text-decoration:none;
-    font-weight: bold;  
+    text-decoration:none; 
     color:#fff;
     text-shadow: 0 0 5px black;
 }
 
 .cont{
     text-decoration:none;
-    font-weight: bold;  
     color:#e1ad01;
     text-shadow: 0 0 5px black;
 }
