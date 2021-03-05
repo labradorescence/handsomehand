@@ -1,5 +1,5 @@
 import React from 'react'
-import FormMock from './not-using/FormMock';
+import FormMock from './znot-using/FormMock';
 
 function Contact() {  
     return (
