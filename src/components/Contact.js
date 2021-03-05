@@ -1,15 +1,15 @@
 import React from 'react'
-import ContactForm from './ContactForm';
-import FormMock from './FormMock';
+import FormMock from './not-using/FormMock';
 
 function Contact() {  
     return (
-    <div>       
+    <div className="contactPage">       
     <h1> CONTACT </h1>
     <h2> WORK WITH ME </h2>
 
     <FormMock></FormMock>
     
+    <div>
     <p>
     Handmade lettering is a priceless investment for any business, brand or personal project that needs to stand apart. When you work with me, you are getting the benefit of 12 years of letterform obsession, a keen eye for color and spatial design, as well as thoughtful and generous consulting around small design decisions that make all the difference.
     </p>
@@ -36,8 +36,9 @@ function Contact() {
     ~I do not offer commercial installation
     ~Any of my designs are not to be duplicated or reproduced, unless we discuss an "unlimited use" package. Reproduction without my permission may result in legal repercussions. 
     </p>
+    </div>
 
-    <ContactForm></ContactForm>
+    {/* <ContactForm></ContactForm> */}
 
     </div>
     )

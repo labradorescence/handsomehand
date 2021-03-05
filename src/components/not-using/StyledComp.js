@@ -1,6 +1,6 @@
 import React from 'react'
 import { ThemeProvider} from 'styled-components';
-import Button from './StyledButton';
+import Button from './not-using/StyledButton';
 
 const theme = {
     primary: 'green',

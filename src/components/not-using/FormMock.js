@@ -1,12 +1,7 @@
 import react from 'react';
-import './FormMock.css'
+// import './FormMock.css'
 
 export default function FormMock () {
-
-
-
-
-
 
     return (
       <div>
@@ -49,6 +44,4 @@ export default function FormMock () {
       </form>
     </div>
     )
-
-
 }

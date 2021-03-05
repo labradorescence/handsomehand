@@ -2,14 +2,14 @@ import React from 'react'
 
 function About() {  
     return (
-    <div>       
+    <div className="aboutPage">       
     
     <h1> ABOUT </h1>
 
     <p>
     Handsome Hand Signs is a small sign shop in Northern California specializing in lettering and graphics that are designed and painted completely by hand. Logos, Murals, Truck Lettering, Windows, Wooden Signs & Gold Leaf are among our offerings.
     </p>
-
+    <br></br>
     <p>
     Many people are surprised to hear that Sign Painting is (arguably) the oldest trade in the world. For centuries, Sign Painters have harnessed language and letterform in artful ways to shape culture through commerce, direction and expression. It was only as recent as the 1950's that computers, machines and vinyl adhesive started to take the place of hand lettering. When you choose a hand-painted sign, you are not only participating in a rich history of human creativity, but your sign is guaranteed to have soul!
     </p>
