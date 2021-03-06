@@ -10,8 +10,8 @@ export default function FormMock () {
         {/* <!-- progressbar --> */}
         <ul id="progressbar">
           <li class="active">Account Setup</li>
-          <li>Social Profiles</li>
-          <li>Personal Details</li>
+          <li>Sign Details</li>
+          <li>Details Details</li>
         </ul>
         {/* <!-- fieldsets --> */}
         <fieldset>
