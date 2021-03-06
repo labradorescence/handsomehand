@@ -47,3 +47,6 @@ https://www.youtube.com/watch?v=qlrCptpwtgs
 
     basic html and css
     https://www.youtube.com/watch?v=-2LtZRi6Q0s
+
+    need to take this 
+    https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/
