@@ -1,5 +1,5 @@
 import react from 'react';
-// import './FormMock.css'
+import './FormMock.css'
 
 export default function FormMock () {
 

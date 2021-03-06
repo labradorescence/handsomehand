@@ -5,7 +5,8 @@ function Contact() {
     return (
     <div className="contactPage">       
     <h1> WORK WITH ME </h1>
-
+    <br></br>
+    <br></br>
     <FormMock></FormMock>
     <br></br>
     <br></br>
