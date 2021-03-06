@@ -2,7 +2,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /* border: 1px solid red; */
+}
 
+.app{
+    width: 100%;
+    height: 100vh;
+    /* background: #42455a; */
 }
 
 /* HOME */
@@ -15,12 +21,14 @@ body{
 .nav {
     /* border: 1px solid red; */
     display: flex;
+    margin-left: 10vh;
+    margin-right: 10vh;
     align-items: center;
     justify-content: space-between;
     height: 20vh;
 
-    flex-basis: 100%;
-    flex-wrap: wrap;
+    /* flex-basis: 100%; */
+    /* flex-wrap: wrap; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -31,34 +39,42 @@ body{
     
     font-size: 2rem;
     color: white;
+
+    text-decoration:none;
+    color:white;
+    text-shadow: 0 0 5px black;
+    font-weight: bold;  
 }
 
 .navLink{
     /* border: 1px solid black; */
     display: flex;
+    width: 35vw;
+
+    margin: 10 20px;
+    cursor: pointer;
 
     height: 10vh;
-    justify-content: flex-end;
-
-    align-items: center;
+    justify-content: space-between;
     flex-wrap: wrap;
+    align-items: center;
 
     font-weight: bold;  
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .navHome{
     text-decoration:none; 
     color: #fff;
     text-shadow: 0 0 5px black;
-    flex: 1 1 300px;
+    /* flex: 1 1 300px; */
 }
 
 .navAbout{
     text-decoration:none;
     color:white;
     text-shadow: 0 0 5px black;
-    flex: 1 1 300px;
+    /* flex: 1 1 300px; */
 }
 
 
@@ -66,27 +82,58 @@ body{
     text-decoration:none; 
     color:#fff;
     text-shadow: 0 0 5px black;
-    flex: 1 1 300px;
+    /* flex: 1 1 300px; */
 }
 
 .navCont{
     text-decoration:none;
     color:white;
     text-shadow: 0 0 5px black;
-    flex: 1 1 300px;
+    /* flex: 1 1 300px; */
 }
 
 /* end of NAV */
 
 .aboutPage{
+    margin-left: 10vh;
+    margin-right: 10vh;
+
     display: flex;
+
+    padding: 10vw;
     background-color: beige;
     flex-wrap: wrap;
+    font-size: 1.2rem;
+}
+
+.contactPage{
+    margin-left: 10vh;
+    margin-right: 10vh;
+
+    display: flex;
+
+    padding: 10vw;
+    background-color: beige;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+}
+
+.portfolioPage{
+    margin-left: 10vh;
+    margin-right: 10vh;
+
+    display: flex;
+
+    padding: 10vw;
+    background-color: beige;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 800px) {
     body {
       background-color: lightblue;
       flex-direction: column;
+      flex-wrap: wrap;
     }
   }

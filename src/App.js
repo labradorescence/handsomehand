@@ -12,7 +12,7 @@ function App() {
 
     return (
       <Router>
-          <div className="App">
+          <div className="app">
 
             <Nav />
 

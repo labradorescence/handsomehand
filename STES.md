@@ -44,3 +44,6 @@ https://www.youtube.com/watch?v=qlrCptpwtgs
     https://www.youtube.com/watch?v=zT62eVxShsY
 
     About styling 
+
+    basic html and css
+    https://www.youtube.com/watch?v=-2LtZRi6Q0s
