@@ -74,6 +74,17 @@ body{
 /* end of NAV */
 
 
+
+
+
+
+
+
+
+
+
+
+
 /* pages background square */
 .aboutPage, .portfolioPage, .contactPage{
     margin: 0vh 10vh 0vh 10vh;
@@ -97,6 +108,12 @@ body{
 
     display: flex;
 
+}
+
+
+
+p{
+    padding: 10vh 0 10vh 0;
 }
 
 @media only screen and (max-width: 800px) {
