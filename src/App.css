@@ -68,7 +68,7 @@ body{
 
 .navHome, .navAbout, .navPort, .navCont{
     text-decoration:none; 
-    color: white;
+    color:  white;
     text-shadow: 0 0 5px black;
 }
 /* end of NAV */
@@ -92,7 +92,8 @@ body{
     display: flex;
 
     padding: 10vw;
-    background-color: rgba(167, 73, 23, 0.79);
+    /* background-color: rgba(167, 73, 23, 0.79); */
+    background-color: rgba(255,255,255, 0.8);
     flex-wrap: wrap;
     font-size: 1.2rem;
 }
@@ -105,9 +106,7 @@ body{
     height: 5rem;    
     color:#fff;
     text-shadow: 0 0 5px black;
-
     display: flex;
-
 }
 
 
