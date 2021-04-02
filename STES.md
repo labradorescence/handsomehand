@@ -17,7 +17,7 @@ https://www.youtube.com/watch?v=qlrCptpwtgs
     This didn't really work :  https://medium.com/@sschannak/netlify-and-react-router-1537aebe6256
 
     Had Yarn Build issue and this worked
-    ```
+    
     //package.json
     "scripts": {
     "start": "react-scripts start",
@@ -26,8 +26,9 @@ https://www.youtube.com/watch?v=qlrCptpwtgs
     "eject": "react-scripts eject"
     },
 
-    ```
 
+
+# other tutorials and progresses
     https://www.youtube.com/watch?v=Law7wfdg_ls
     15:35
 
@@ -40,7 +41,7 @@ https://www.youtube.com/watch?v=qlrCptpwtgs
     Css Form
     https://codepen.io/atakan/pen/gqbIz
 
-    multi step form with react & matirial ui
+    Didn't end up following: multi step form with react & matirial ui
     https://www.youtube.com/watch?v=zT62eVxShsY
 
     About styling 
@@ -51,7 +52,6 @@ https://www.youtube.com/watch?v=qlrCptpwtgs
     need to take this 
     https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/
 
-    Form prev-Next FORM
-    https://www.youtube.com/watch?v=pWOiGhFAl8w
 
-    
+# Form prev-Next react tutorial to make FORM
+    https://www.youtube.com/watch?v=pWOiGhFAl8w

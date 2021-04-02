@@ -5,7 +5,7 @@ export default function Form(){
     const [form, setForm] = useState({
         email: "",
         name: "",
-        passworld: ""
+        password: ""
     })
 
     const [count, setCount] = useState(1)
@@ -17,36 +17,37 @@ export default function Form(){
         })
     }
 
-
     return (
         <div>
 
-            <h1> {count} of 3 </h1>
+            <h1> steps: {count} of 3 </h1>
+
             <form onSubmit = { () => alert(`submitted email: ${form.email} name: ${form.name} passworld: ${form.password}`)}>
 
                 {count === 1  ?  (  //when the page count is 1 show this 
                 <div className = "form">
                 <label> Email </label>
                 <input 
-                type ="email" 
-                className = "form-input"
-                name ="email" 
-                onChange ={updateForm} 
-                value = {form.email}
+                    type ="email" 
+                    className = "form-input"
+                    name ="email" 
+                    placeholder="email"
+                    onChange ={updateForm} 
+                    value = {form.email}
                 />
                 </div>
                 ):null} {/* if the page count is not equal to 1 then null */}
-
 
                 {count === 2  ?  (
                 <div className = "form">
                 <label> Name </label>
                 <input 
-                type ="text" 
-                className = "form-input"
-                name ="name" 
-                onChange ={updateForm} 
-                value = {form.name}
+                    type ="text" 
+                    className = "form-input"
+                    name ="name"
+                    placeholder="name" 
+                    onChange ={updateForm} 
+                    value = {form.name}
                 />
                 </div>
                 ):null} 
@@ -55,28 +56,33 @@ export default function Form(){
                 <div className = "form">
                 <label> Password </label>
                 <input 
-                type ="password" 
-                className = "form-input"
-                name ="password" 
-                onChange ={updateForm} 
-                value = {form.password}
+                    type ="password" 
+                    className = "form-input"
+                    name ="password" 
+                    placeholder="password"
+                    onChange ={updateForm} 
+                    value = {form.password}
                 />
                 <button type = "submit"> submit</button>
                 </div>
                 ):null} 
 
-
             </form>
+
+            {/* PREV button */}
             <button 
-            type = "submit" 
-            onClick = {() => setCount(count -1)} //decrease the page count
-            disabled = {count < 2} //don't do anytying when the page is the first page
+                type = "submit" 
+                onClick = {() => setCount(count -1)} //decrease the page count
+                disabled = {count < 2} //don't do anytying when the page is the first page
             > prev </button>
+
+            {/* NEXT button */}
             <button 
-            type = "submit" 
-            onClick = {() => setCount(count +1)}
-            disabled = {count > 2}
+                type = "submit" 
+                onClick = {() => setCount(count +1)}
+                disabled = {count > 2}
             > next </button>
+
         </div>
     )
 }
