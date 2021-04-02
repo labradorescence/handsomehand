@@ -34,12 +34,12 @@ export default function Form(){
     }
 
     return (
-        <div>
+        <div className = "form-box">
 
             <h5> steps: {count} of 3 </h5>
 
             <form 
-            className = "form"
+           
             onSubmit = { (e) => alert(`
             submitted 
             1${form.phone}
@@ -203,9 +203,13 @@ export default function Form(){
                     onChange ={updateForm} 
                     value = {form.comment}
                 />
-                
-                <button type = "submit"> submit</button>
                 </div>
+                ):null} 
+                
+
+                {/* SUBMIT button */}
+                {count === 3  ?  (
+                <button type = "submit"> submit</button>
                 ):null} 
 
             </form>
@@ -227,5 +231,6 @@ export default function Form(){
             > next </button>
 
         </div>
+        // end of form-box
     )
 }
