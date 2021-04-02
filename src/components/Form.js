@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import './Form.css'
 
 export default function Form(){
 
@@ -35,9 +36,11 @@ export default function Form(){
     return (
         <div>
 
-            <h1> steps: {count} of 3 </h1>
+            <h5> steps: {count} of 3 </h5>
 
-            <form onSubmit = { () => alert(`
+            <form 
+            className = "form"
+            onSubmit = { (e) => alert(`
             submitted 
             1${form.phone}
             2${form.email}
@@ -54,12 +57,15 @@ export default function Form(){
             11${form.deadline}
             12${form.budget}
             13${form.comment}
+            `)
             
-            `)}>
+            }>
 
                 {count === 1  ?  (  //when the page count is 1 show this 
-                <div className = "form">
+                <div className = "field1">
                 <label> customer info </label>
+
+                
                 <input 
                     type ="text" 
                     className = "form-input"
@@ -70,16 +76,16 @@ export default function Form(){
                 />
 
                 <input 
-                    type ="text" 
+                    type ="tel" 
                     className = "form-input"
                     name ="phone" 
-                    placeholder="phone"
+                    placeholder="000-000-0000"
                     onChange ={updateForm} 
                     value = {form.phone}
                 />
 
                 <input 
-                    type ="text" 
+                    type ="email" 
                     className = "form-input"
                     name ="email" 
                     placeholder="email"
@@ -108,8 +114,9 @@ export default function Form(){
                 ):null} {/* if the page count is not equal to 1 then null */}
 
                 {count === 2  ?  (
-                <div className = "form">
+                <div className = "field2">
                 <label> project description </label>
+
                 <input 
                     type ="text" 
                     className = "form-input"
@@ -129,10 +136,11 @@ export default function Form(){
                 />
 
                 <input 
-                    type ="text" 
+                    type ="file" 
                     className = "form-input"
                     name ="image" 
                     placeholder="image"
+                    
                     onChange ={updateForm} 
                     value = {form.image}
                 />
@@ -158,7 +166,7 @@ export default function Form(){
                 ):null} 
 
                 {count === 3  ?  (
-                <div className = "form">
+                <div className = "field3">
                 <label> more info </label>
                 <input 
                     type ="text" 
@@ -170,7 +178,7 @@ export default function Form(){
                 />
 
                 <input 
-                    type ="text" 
+                    type ="date" 
                     className = "form-input"
                     name ="deadline" 
                     placeholder="deadline"
@@ -195,11 +203,14 @@ export default function Form(){
                     onChange ={updateForm} 
                     value = {form.comment}
                 />
+                
                 <button type = "submit"> submit</button>
                 </div>
                 ):null} 
 
             </form>
+            {/* end of form */}
+
 
             {/* PREV button */}
             <button 
