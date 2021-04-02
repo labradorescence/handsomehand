@@ -1,5 +1,5 @@
 import React from 'react'
-import FormMock from './not-using/FormMock';
+import Form from './Form';
 
 function Contact() {  
     return (
@@ -7,7 +7,7 @@ function Contact() {
     <h1> WORK WITH ME </h1>
     <br></br>
     <br></br>
-    <FormMock></FormMock>
+    <Form></Form>
     <br></br>
     <br></br>
     <div>

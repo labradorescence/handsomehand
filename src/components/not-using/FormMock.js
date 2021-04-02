@@ -1,8 +1,8 @@
 import react from 'react';
 import './FormMock.css';
-import $ from 'jquery';
 
 export default function FormMock () {
+
 
       let prev = document.querySelector('previous action-button')
       let next = document.querySelector('next action-button')
