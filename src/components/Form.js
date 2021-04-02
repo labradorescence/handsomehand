@@ -3,9 +3,24 @@ import React, {useState} from 'react'
 export default function Form(){
 
     const [form, setForm] = useState({
-        email: "",
         name: "",
-        password: ""
+        phone: "",
+        email: "",
+        shippingAddress: "",
+        projectAddress: "",
+
+
+        customDesign: "",
+        description:"",
+        image: "",
+        dimensionDetails:"",
+        manufactureDetails:"",
+
+
+        designText:"",
+        deadline:"",
+        budget:"",
+        comment: ""
     })
 
     const [count, setCount] = useState(1)
@@ -22,46 +37,163 @@ export default function Form(){
 
             <h1> steps: {count} of 3 </h1>
 
-            <form onSubmit = { () => alert(`submitted email: ${form.email} name: ${form.name} passworld: ${form.password}`)}>
+            <form onSubmit = { () => alert(`
+            submitted 
+            1${form.phone}
+            2${form.email}
+            3${form.shippingAddress}
+            4${form.projectAddress}
+    
+            5${form.customDesign}
+            6${form.description}
+            7${form.image}
+            8${form.dimensionDetails}
+            9${form.manufactureDetails}
+    
+            10${form.designText}
+            11${form.deadline}
+            12${form.budget}
+            13${form.comment}
+            
+            `)}>
 
                 {count === 1  ?  (  //when the page count is 1 show this 
                 <div className = "form">
-                <label> Email </label>
+                <label> customer info </label>
                 <input 
-                    type ="email" 
+                    type ="text" 
+                    className = "form-input"
+                    name ="name" 
+                    placeholder="name"
+                    onChange ={updateForm} 
+                    value = {form.name}
+                />
+
+                <input 
+                    type ="text" 
+                    className = "form-input"
+                    name ="phone" 
+                    placeholder="phone"
+                    onChange ={updateForm} 
+                    value = {form.phone}
+                />
+
+                <input 
+                    type ="text" 
                     className = "form-input"
                     name ="email" 
                     placeholder="email"
                     onChange ={updateForm} 
                     value = {form.email}
                 />
+
+                <input 
+                    type ="text" 
+                    className = "form-input"
+                    name ="shippingAddress" 
+                    placeholder="shippingAddress"
+                    onChange ={updateForm} 
+                    value = {form.shippingAddress}
+                />
+
+                <input 
+                    type ="text" 
+                    className = "form-input"
+                    name ="projectAddress" 
+                    placeholder="projectAddress"
+                    onChange ={updateForm} 
+                    value = {form.projectAddress}
+                />
                 </div>
                 ):null} {/* if the page count is not equal to 1 then null */}
 
                 {count === 2  ?  (
                 <div className = "form">
-                <label> Name </label>
+                <label> project description </label>
                 <input 
                     type ="text" 
                     className = "form-input"
-                    name ="name"
-                    placeholder="name" 
+                    name ="customDesign"
+                    placeholder="customDesign" 
                     onChange ={updateForm} 
-                    value = {form.name}
+                    value = {form.customDesign}
+                />
+
+                <input 
+                    type ="text" 
+                    className = "form-input"
+                    name ="description" 
+                    placeholder="description"
+                    onChange ={updateForm} 
+                    value = {form.description}
+                />
+
+                <input 
+                    type ="text" 
+                    className = "form-input"
+                    name ="image" 
+                    placeholder="image"
+                    onChange ={updateForm} 
+                    value = {form.image}
+                />
+
+                <input 
+                    type ="text" 
+                    className = "form-input"
+                    name ="demensionDetail" 
+                    placeholder="demensionDetail"
+                    onChange ={updateForm} 
+                    value = {form.demensionDetail}
+                />
+
+                <input 
+                    type ="text" 
+                    className = "form-input"
+                    name ="manufactureDetail" 
+                    placeholder="manufactureDetail"
+                    onChange ={updateForm} 
+                    value = {form.manufactureDetail}
                 />
                 </div>
                 ):null} 
 
                 {count === 3  ?  (
                 <div className = "form">
-                <label> Password </label>
+                <label> more info </label>
                 <input 
-                    type ="password" 
+                    type ="text" 
                     className = "form-input"
-                    name ="password" 
-                    placeholder="password"
+                    name ="designText" 
+                    placeholder="designText"
                     onChange ={updateForm} 
-                    value = {form.password}
+                    value = {form.designText}
+                />
+
+                <input 
+                    type ="text" 
+                    className = "form-input"
+                    name ="deadline" 
+                    placeholder="deadline"
+                    onChange ={updateForm} 
+                    value = {form.deadline}
+                />
+
+                <input 
+                    type ="text" 
+                    className = "form-input"
+                    name ="budget" 
+                    placeholder="budget"
+                    onChange ={updateForm} 
+                    value = {form.budget}
+                />
+
+                <input 
+                    type ="text" 
+                    className = "form-input"
+                    name ="comment" 
+                    placeholder="comment"
+                    onChange ={updateForm} 
+                    value = {form.comment}
                 />
                 <button type = "submit"> submit</button>
                 </div>
