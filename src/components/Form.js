@@ -42,21 +42,22 @@ export default function Form(){
            
             onSubmit = { (e) => alert(`
             submitted 
-            1${form.phone}
-            2${form.email}
-            3${form.shippingAddress}
-            4${form.projectAddress}
+            1${form.name}
+            2${form.phone}
+            3${form.email}
+            4${form.shippingAddress}
+            5${form.projectAddress}
     
-            5${form.customDesign}
-            6${form.description}
-            7${form.image}
-            8${form.dimensionDetails}
-            9${form.manufactureDetails}
+            6${form.customDesign}
+            7${form.description}
+            8${form.image}
+            9${form.dimensionDetails}
+            10${form.manufactureDetails}
     
-            10${form.designText}
-            11${form.deadline}
-            12${form.budget}
-            13${form.comment}
+            11${form.designText}
+            12${form.deadline}
+            13${form.budget}
+            14${form.comment}
             `)
             
             }>
@@ -65,7 +66,7 @@ export default function Form(){
                 <div className = "field1">
                 <label> customer info </label>
 
-                
+                name
                 <input 
                     type ="text" 
                     className = "form-input"
@@ -74,7 +75,8 @@ export default function Form(){
                     onChange ={updateForm} 
                     value = {form.name}
                 />
-
+                
+                phone
                 <input 
                     type ="tel" 
                     className = "form-input"
@@ -84,6 +86,7 @@ export default function Form(){
                     value = {form.phone}
                 />
 
+                email
                 <input 
                     type ="email" 
                     className = "form-input"
@@ -93,6 +96,7 @@ export default function Form(){
                     value = {form.email}
                 />
 
+                shipping address
                 <input 
                     type ="text" 
                     className = "form-input"
@@ -102,6 +106,7 @@ export default function Form(){
                     value = {form.shippingAddress}
                 />
 
+                Physical location of project
                 <input 
                     type ="text" 
                     className = "form-input"
@@ -117,6 +122,7 @@ export default function Form(){
                 <div className = "field2">
                 <label> project description </label>
 
+                Are you interested in a custom design, or do you already have a design to work from?
                 <input 
                     type ="text" 
                     className = "form-input"
@@ -126,6 +132,7 @@ export default function Form(){
                     value = {form.customDesign}
                 />
 
+                Briefly describe the project and your brand, if applicable
                 <input 
                     type ="text" 
                     className = "form-input"
@@ -135,6 +142,7 @@ export default function Form(){
                     value = {form.description}
                 />
 
+                Please upload 5-7 reference images, including your logo
                 <input 
                     type ="file" 
                     className = "form-input"
@@ -145,6 +153,7 @@ export default function Form(){
                     value = {form.image}
                 />
 
+                If the design will be painted directly onto a surface, such as a wall or vehicle, please provide dimensions and a description of the surface. Please include maximum working height from ground, and any other details related to access and conditions of the working area.
                 <input 
                     type ="text" 
                     className = "form-input"
@@ -154,6 +163,7 @@ export default function Form(){
                     value = {form.demensionDetail}
                 />
 
+                If you are ordering a manufactured sign (wood, metal, canvas etc), please provide dimensions, whether the sign will be single or double-sided, and if you would like hanging hardware to be included.
                 <input 
                     type ="text" 
                     className = "form-input"
@@ -168,6 +178,8 @@ export default function Form(){
                 {count === 3  ?  (
                 <div className = "field3">
                 <label> more info </label>
+
+                text in the design
                 <input 
                     type ="text" 
                     className = "form-input"
@@ -177,6 +189,7 @@ export default function Form(){
                     value = {form.designText}
                 />
 
+                deadline
                 <input 
                     type ="date" 
                     className = "form-input"
@@ -186,6 +199,7 @@ export default function Form(){
                     value = {form.deadline}
                 />
 
+                budget
                 <input 
                     type ="text" 
                     className = "form-input"
@@ -195,6 +209,7 @@ export default function Form(){
                     value = {form.budget}
                 />
 
+                comments
                 <input 
                     type ="text" 
                     className = "form-input"
@@ -209,7 +224,10 @@ export default function Form(){
 
                 {/* SUBMIT button */}
                 {count === 3  ?  (
-                <button type = "submit"> submit</button>
+                <button 
+                type = "submit"
+                id= "submitBtn"
+                > submit</button>
                 ):null} 
 
             </form>

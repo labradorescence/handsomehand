@@ -2,18 +2,29 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .form-box{
     min-width: 100%;
     min-height: 50vh;
+    /* max-width: 100%;
+    max-height: 50vh; */
     border: dotted orange 5vw;
     margin: 0vw;
     padding: 5vw;
+
 }
 
 label, input, textarea{
     display: block;
     width: 100%;
+}
+
+#submitBtn{
+    width: 100%;
+}
+
+.field2{
+    display:block;
 }
