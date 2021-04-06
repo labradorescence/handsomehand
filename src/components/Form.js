@@ -66,52 +66,49 @@ export default function Form(){
                 <div className = "field1">
                 <label> customer info </label>
 
-                name
+                
                 <input 
                     type ="text" 
                     className = "form-input"
                     name ="name" 
-                    placeholder="name"
+                    placeholder="Name"
                     onChange ={updateForm} 
                     value = {form.name}
                 />
                 
-                phone
+                
                 <input 
                     type ="tel" 
                     className = "form-input"
                     name ="phone" 
-                    placeholder="000-000-0000"
+                    placeholder="Phone 000-000-0000"
                     onChange ={updateForm} 
                     value = {form.phone}
                 />
 
-                email
                 <input 
                     type ="email" 
                     className = "form-input"
                     name ="email" 
-                    placeholder="email"
+                    placeholder="E-mail"
                     onChange ={updateForm} 
                     value = {form.email}
                 />
 
-                shipping address
-                <input 
+                <textarea 
                     type ="text" 
                     className = "form-input"
                     name ="shippingAddress" 
-                    placeholder="shippingAddress"
+                    placeholder="Shipping Address"
                     onChange ={updateForm} 
                     value = {form.shippingAddress}
                 />
 
-                Physical location of project
-                <input 
+                <textarea 
                     type ="text" 
                     className = "form-input"
                     name ="projectAddress" 
-                    placeholder="projectAddress"
+                    placeholder="Physical location of the project"
                     onChange ={updateForm} 
                     value = {form.projectAddress}
                 />
@@ -122,27 +119,27 @@ export default function Form(){
                 <div className = "field2">
                 <label> project description </label>
 
-                Are you interested in a custom design, or do you already have a design to work from?
-                <input 
+                
+                <textarea 
                     type ="text" 
                     className = "form-input"
                     name ="customDesign"
-                    placeholder="customDesign" 
+                    placeholder="Are you interested in a custom design, or do you already have a design to work from?" 
                     onChange ={updateForm} 
                     value = {form.customDesign}
                 />
 
-                Briefly describe the project and your brand, if applicable
-                <input 
+                
+                <textarea 
                     type ="text" 
                     className = "form-input"
                     name ="description" 
-                    placeholder="description"
+                    placeholder="Briefly describe the project and your brand, if applicable"
                     onChange ={updateForm} 
                     value = {form.description}
                 />
 
-                Please upload 5-7 reference images, including your logo
+                Please upload the reference images, including your logo
                 <input 
                     type ="file" 
                     className = "form-input"
@@ -153,22 +150,22 @@ export default function Form(){
                     value = {form.image}
                 />
 
-                If the design will be painted directly onto a surface, such as a wall or vehicle, please provide dimensions and a description of the surface. Please include maximum working height from ground, and any other details related to access and conditions of the working area.
-                <input 
+                
+                <textarea 
                     type ="text" 
                     className = "form-input"
                     name ="demensionDetail" 
-                    placeholder="demensionDetail"
+                    placeholder="If the design will be painted directly onto a surface, such as a wall or vehicle, please provide dimensions and a description of the surface. Please include maximum working height from ground, and any other details related to access and conditions of the working area."
                     onChange ={updateForm} 
                     value = {form.demensionDetail}
                 />
 
-                If you are ordering a manufactured sign (wood, metal, canvas etc), please provide dimensions, whether the sign will be single or double-sided, and if you would like hanging hardware to be included.
-                <input 
+                
+                <textarea 
                     type ="text" 
                     className = "form-input"
                     name ="manufactureDetail" 
-                    placeholder="manufactureDetail"
+                    placeholder="If you are ordering a manufactured sign (wood, metal, canvas etc), please provide dimensions, whether the sign will be single or double-sided, and if you would like hanging hardware to be included."
                     onChange ={updateForm} 
                     value = {form.manufactureDetail}
                 />
@@ -179,42 +176,39 @@ export default function Form(){
                 <div className = "field3">
                 <label> more info </label>
 
-                text in the design
+ 
                 <input 
                     type ="text" 
                     className = "form-input"
                     name ="designText" 
-                    placeholder="designText"
+                    placeholder="Text in the design"
                     onChange ={updateForm} 
                     value = {form.designText}
                 />
 
-                deadline
                 <input 
                     type ="date" 
                     className = "form-input"
                     name ="deadline" 
-                    placeholder="deadline"
+                    placeholder="Deadline"
                     onChange ={updateForm} 
                     value = {form.deadline}
                 />
 
-                budget
                 <input 
                     type ="text" 
                     className = "form-input"
                     name ="budget" 
-                    placeholder="budget"
+                    placeholder="Budget"
                     onChange ={updateForm} 
                     value = {form.budget}
                 />
 
-                comments
-                <input 
+                <textarea 
                     type ="text" 
                     className = "form-input"
                     name ="comment" 
-                    placeholder="comment"
+                    placeholder="Comments"
                     onChange ={updateForm} 
                     value = {form.comment}
                 />

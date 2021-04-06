@@ -9,22 +9,27 @@
     min-width: 100%;
     min-height: 50vh;
     border: dotted #F55A00 5vw;
+    /* border: 1px solid red; */
     margin: 0vw;
-    padding: 5vw;
+    padding: 5vw ;
 }
 
 .form-box h5{
-    font-size: 24px ;
+    font-size: 1.2rem ;
     text-align: center;
     color: #F55A00;
+    margin: 0 0 .5vh 0;
 }
 
 .form-box label{
     display: block;
     text-align: center;
+    font-size: .8rem;
+    margin: 0 0 2vh 0;
 }
 
-.form-box input{
+.form-box input, textarea{
+    font-family: sans-serif;
     display: block;
     width: 100%;
     padding: .5rem 0 .5rem 0;
@@ -32,6 +37,10 @@
     margin: .9vw 0 ;
     border:0;
     border-radius: 5px;
+}
+
+.form-box textarea{
+    height: 15vh;
 }
 
 #submitBtn{
