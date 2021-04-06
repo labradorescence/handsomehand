@@ -16,7 +16,7 @@
 }
 
 .form-box h5{
-    font-size: 25px ;
+    font-size: 35px ;
     text-align: center;
     color: #F55A00;
     margin: 0 0 .5vh 0;
@@ -25,7 +25,7 @@
 .form-box label{
     display: block;
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
     margin: 0 0 2vh 0;
 }
 
@@ -38,7 +38,7 @@
     margin: .9vw 0 ;
     border:0;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .form-box textarea{
@@ -56,12 +56,14 @@
     cursor: pointer;
     /* change the mouse corsor to finger pointer */
     transition: 1s background ease;
+    font-size: 20px;
 }
 
 /* hover over  */
 #submitBtn:hover{
-    background-color: white;
-    color: black;
+    background-color: rgb(250, 205, 149);
+    color: #FFF;
+    font-size: 20px;
 }
 
 .prevBtn{
@@ -74,6 +76,7 @@
     position:absolute;
     bottom: 0;
     cursor: pointer;
+    font-size: 20px;
 }
 
 .nextBtn{
@@ -87,7 +90,7 @@
     position:absolute;
     bottom: 0;
     cursor: pointer;
-
+    font-size: 20px;
 }
 
 .nextBtn:hover, .prevBtn:hover{
