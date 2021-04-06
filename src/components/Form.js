@@ -36,7 +36,7 @@ export default function Form(){
     return (
         <div className = "form-box">
 
-            <h5> steps: {count} of 3 </h5>
+            <h5 className = "form-step"> steps: {count} of 3 </h5>
 
             <form 
            
@@ -227,6 +227,7 @@ export default function Form(){
                 <button 
                 type = "submit"
                 id= "submitBtn"
+                className = "submitBtn"
                 > submit</button>
                 ):null} 
 

@@ -8,9 +8,7 @@
 .form-box{
     min-width: 100%;
     min-height: 50vh;
-    /* max-width: 100%;
-    max-height: 50vh; */
-    border: dotted orange 5vw;
+    border: dotted #F55A00 5vw;
     margin: 0vw;
     padding: 5vw;
 
@@ -19,12 +17,24 @@
 label, input, textarea{
     display: block;
     width: 100%;
+    padding: .5rem 0;
+    color: red;
 }
 
 #submitBtn{
+    border: 0; 
+    background-color: #F55A00;
+    padding: .5rem;
+    color: #FFFF;
+    margin: 1rem 0;
     width: 100%;
+    text-transform: uppercase;
+    cursor: pointer;
+    /* change the mouse corsor to finger pointer */
 }
 
-.field2{
-    display:block;
+/* hover over  */
+#submitBtn:hover{
+    background-color: white;
+    color: black;
 }
