@@ -238,7 +238,7 @@ export default function Form(){
                 type = "submit" 
                 onClick = {() => setCount(count -1)} //decrease the page count
                 disabled = {count <= 1} //don't do anytying when the page is the first page
-            > prev </button>
+            > PREV </button>
 
             {/* NEXT button */}
             <button 
@@ -246,7 +246,7 @@ export default function Form(){
                 type = "submit" 
                 onClick = {() => setCount(count +1)}
                 disabled = {count >= 4} //at the last page, disable the next button
-            > next </button>
+            > NEXT </button>
 
         </div>
         // end of form-box
