@@ -11,14 +11,27 @@
     border: dotted #F55A00 5vw;
     margin: 0vw;
     padding: 5vw;
-
 }
 
-label, input, textarea{
+.form-box h5{
+    font-size: 24px ;
+    text-align: center;
+    color: #F55A00;
+}
+
+.form-box label{
+    display: block;
+    text-align: center;
+}
+
+.form-box input{
     display: block;
     width: 100%;
-    padding: .5rem 0;
+    padding: .5rem 0 .5rem 0;
     color: red;
+    margin: .9vw 0 ;
+    border:0;
+    border-radius: 5px;
 }
 
 #submitBtn{
@@ -31,10 +44,24 @@ label, input, textarea{
     text-transform: uppercase;
     cursor: pointer;
     /* change the mouse corsor to finger pointer */
+    transition: 1s background ease;
 }
 
 /* hover over  */
 #submitBtn:hover{
     background-color: white;
     color: black;
+}
+
+.nextBtn, .prevBtn{
+    width: 50%;
+    height: 2rem;
+    color: red;
+    border: 0;
+    margin: 1rem 0 1rem 0
+}
+
+.nextBtn:hover, .prevBtn:hover{
+    background-color: beige;
+    transition: 1s background ease;
 }

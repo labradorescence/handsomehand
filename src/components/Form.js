@@ -237,6 +237,7 @@ export default function Form(){
 
             {/* PREV button */}
             <button 
+                className = "prevBtn"
                 type = "submit" 
                 onClick = {() => setCount(count -1)} //decrease the page count
                 disabled = {count < 2} //don't do anytying when the page is the first page
@@ -244,6 +245,7 @@ export default function Form(){
 
             {/* NEXT button */}
             <button 
+                className = "nextBtn"
                 type = "submit" 
                 onClick = {() => setCount(count +1)}
                 disabled = {count > 2}
