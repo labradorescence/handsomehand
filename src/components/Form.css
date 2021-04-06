@@ -7,11 +7,12 @@
 
 .form-box{
     min-width: 100%;
-    min-height: 50vh;
+    height: 100vh;
     border: dotted #F55A00 5vw;
     /* border: 1px solid red; */
     margin: 0vw;
     padding: 5vw ;
+    position:relative;
 }
 
 .form-box h5{
@@ -63,12 +64,30 @@
     color: black;
 }
 
-.nextBtn, .prevBtn{
-    width: 50%;
+.prevBtn{
+    display: inline-block;
+    width: 30%;
     height: 2rem;
     color: red;
     border: 0;
-    margin: 1rem 0 1rem 0
+    margin: 1rem 0 1rem 0;
+    position:absolute;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.nextBtn{
+    display: inline-block;
+    width: 30%;
+    height: 2rem;
+    color: red;
+    border: 0;
+    margin: 1rem 0 1rem 8rem;
+    margin-left: 52%;
+    position:absolute;
+    bottom: 0;
+    cursor: pointer;
+
 }
 
 .nextBtn:hover, .prevBtn:hover{

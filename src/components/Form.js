@@ -66,7 +66,7 @@ export default function Form(){
                 <div className = "field1">
                 <label> customer info </label>
 
-                
+            
                 <input 
                     type ="text" 
                     className = "form-input"
