@@ -36,7 +36,7 @@ export default function Form(){
     return (
         <div className = "form-box">
 
-            <h5 className = "form-step"> steps: {count} of 3 </h5>
+            <h5 className = "form-step"> steps: {count} of 4 </h5>
 
             <form 
            
@@ -149,8 +149,11 @@ export default function Form(){
                     onChange ={updateForm} 
                     value = {form.image}
                 />
+                </div>
+                ):null} 
 
-                
+                {count === 3  ?  (
+                <div className = "field3">
                 <textarea 
                     type ="text" 
                     className = "form-input"
@@ -172,8 +175,8 @@ export default function Form(){
                 </div>
                 ):null} 
 
-                {count === 3  ?  (
-                <div className = "field3">
+                {count === 4  ?  (
+                <div className = "field4">
                 <label> more info </label>
 
  
@@ -217,7 +220,7 @@ export default function Form(){
                 
 
                 {/* SUBMIT button */}
-                {count === 3  ?  (
+                {count === 4  ?  (
                 <button 
                 type = "submit"
                 id= "submitBtn"
@@ -234,7 +237,7 @@ export default function Form(){
                 className = "prevBtn"
                 type = "submit" 
                 onClick = {() => setCount(count -1)} //decrease the page count
-                disabled = {count < 2} //don't do anytying when the page is the first page
+                disabled = {count <= 1} //don't do anytying when the page is the first page
             > prev </button>
 
             {/* NEXT button */}
@@ -242,7 +245,7 @@ export default function Form(){
                 className = "nextBtn"
                 type = "submit" 
                 onClick = {() => setCount(count +1)}
-                disabled = {count > 2}
+                disabled = {count >= 4} //at the last page, disable the next button
             > next </button>
 
         </div>
