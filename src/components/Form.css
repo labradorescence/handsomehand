@@ -2,7 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* border: 1px solid red; */
+    border: 1px solid red;
+    font-family: sans-serif;
 }
 
 .form-box{
@@ -12,8 +13,10 @@
     /* border: 1px solid red; */
     margin: 0vw;
     padding: 5vw ;
-    position:relative;
+    position:relative; 
+    /* position:relative for .prevBtn and .nextBtn position:absolute; */
 }
+
 
 .form-box h5{
     font-size: 35px ;
@@ -30,12 +33,10 @@
 }
 
 .form-box input, textarea{
-    font-family: sans-serif;
     display: block;
     width: 100%;
     padding: .5rem .8rem .5rem .8rem;
-    color: red;
-    margin: .9vw 0 ;
+    margin: .9vw 0;
     border:0;
     border-radius: 5px;
     font-size: 20px;
@@ -45,55 +46,32 @@
     height: 15vh;
 }
 
-#submitBtn{
-    border: 0; 
-    background-color: #F55A00;
-    padding: .5rem;
-    color: #FFFF;
-    margin: 1rem 0;
-    width: 100%;
-    text-transform: uppercase;
+.prevBtn, .nextBtn{
+    display: inline-block;
+    width: 30%;
+    height: 2rem;
+    color: red;
+    border: 0;
+    bottom: 0;
     cursor: pointer;
-    /* change the mouse corsor to finger pointer */
-    transition: 1s background ease;
     font-size: 20px;
-}
+    position:absolute;
 
-/* hover over  */
-#submitBtn:hover{
-    background-color: rgb(250, 205, 149);
-    color: #FFF;
-    font-size: 20px;
 }
 
 .prevBtn{
-    display: inline-block;
-    width: 30%;
-    height: 2rem;
-    color: red;
-    border: 0;
     margin: 1rem 0 1rem 0;
-    position:absolute;
-    bottom: 0;
-    cursor: pointer;
-    font-size: 20px;
+    border-radius: 20px 0 0 20px; 
 }
 
 .nextBtn{
-    display: inline-block;
-    width: 30%;
-    height: 2rem;
-    color: red;
-    border: 0;
     margin: 1rem 0 1rem 8rem;
-    margin-left: 52%;
-    position:absolute;
-    bottom: 0;
-    cursor: pointer;
-    font-size: 20px;
+    margin-left: 52%;   
+    border-radius: 0 20px 20px 0; 
 }
 
 .nextBtn:hover, .prevBtn:hover{
-    background-color: beige;
+    background-color: rgb(245, 245, 78);
     transition: 1s background ease;
 }
+

@@ -65,7 +65,6 @@ export default function Form(){
                 {count === 1  ?  (  //when the page count is 1 show this 
                 <div className = "field1">
                 <label> customer info </label>
-
             
                 <input 
                     type ="text" 
@@ -75,7 +74,7 @@ export default function Form(){
                     onChange ={updateForm} 
                     value = {form.name}
                 />
-                
+
                 
                 <input 
                     type ="tel" 
@@ -154,6 +153,7 @@ export default function Form(){
 
                 {count === 3  ?  (
                 <div className = "field3">
+                <label> dimensional details </label>
                 <textarea 
                     type ="text" 
                     className = "form-input"
