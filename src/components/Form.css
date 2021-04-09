@@ -2,9 +2,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-family: sans-serif;
 }
+
+
 
 .form-box{
     min-width: 100%;
@@ -18,6 +20,9 @@
 }
 
 
+
+/******** h5 ********/
+
 .form-box h5{
     font-size: 35px ;
     text-align: center;
@@ -25,12 +30,20 @@
     margin: 0 0 .5vh 0;
 }
 
+
+
+/******** label ********/
+
 .form-box label{
     display: block;
     text-align: center;
     font-size: 20px;
     margin: 0 0 2vh 0;
 }
+
+
+
+/******** input textarea ********/
 
 .form-box input, textarea{
     display: block;
@@ -46,6 +59,9 @@
     height: 15vh;
 }
 
+
+
+/******* prev next button ********/
 .prevBtn, .nextBtn{
     display: inline-block;
     width: 30%;
@@ -56,16 +72,14 @@
     cursor: pointer;
     font-size: 20px;
     position:absolute;
-
+    margin: 1rem 0 1rem 0;
 }
 
 .prevBtn{
-    margin: 1rem 0 1rem 0;
     border-radius: 20px 0 0 20px; 
 }
 
 .nextBtn{
-    margin: 1rem 0 1rem 8rem;
     margin-left: 52%;   
     border-radius: 0 20px 20px 0; 
 }
@@ -73,5 +87,30 @@
 .nextBtn:hover, .prevBtn:hover{
     background-color: rgb(245, 245, 78);
     transition: 1s background ease;
+}
+
+
+
+/******** submit button  ********/
+#submitBtn{
+    border: 0; 
+    background-color: #F55A00;
+    padding: .5rem;
+    color: #FFFF;
+    margin: 1rem 0;
+    width: 100%;
+    text-transform: uppercase;
+    cursor: pointer;
+    /* change the mouse corsor to finger pointer */
+    transition: 1s background ease;
+    font-size: 20px;
+}
+
+
+/* submit hover over  */
+#submitBtn:hover{
+    background-color: rgb(250, 205, 149);
+    color: #FFF;
+    font-size: 20px;
 }
 
