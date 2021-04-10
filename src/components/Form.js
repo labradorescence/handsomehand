@@ -39,15 +39,16 @@ export default function Form(){
     
         emailjs.sendForm(
             'service_z3p8h0m', 
-            'template_ep1pzcq', 
+            'template_svmf3nm', 
             e.target, 
             'user_7Pf1rN0FgZQwrrMpFSw55'
         )
           .then((result) => {
-              console.log(result.text);
+              console.log(result.text, e.target);
           }, (error) => {
               console.log(error.text);
           });
+          e.target.reset();
     }
     
 
@@ -58,28 +59,29 @@ export default function Form(){
 
             <h5 className = "form-step"> steps: {count} of 4 </h5>
 
-            <form onSubmit = { sendEmail }>
-            {/* //     (e) => alert(`
-            // submitted 
-            // 1${form.name}
-            // 2${form.phone}
-            // 3${form.email}
-            // 4${form.shippingAddress}
-            // 5${form.projectAddress}
+            <form onSubmit = { 
+                (e) => alert(`
+            submitted 
+            1${form.name}
+            2${form.phone}
+            3${form.email}
+            4${form.shippingAddress}
+            5${form.projectAddress}
     
-            // 6${form.customDesign}
-            // 7${form.description}
-            // 8${form.image}
-            // 9${form.dimensionDetails}
-            // 10${form.manufactureDetails}
+            6${form.customDesign}
+            7${form.description}
+            8${form.image}
+            9${form.dimensionDetails}
+            10${form.manufactureDetails}
     
-            // 11${form.designText}
-            // 12${form.deadline}
-            // 13${form.budget}
-            // 14${form.comment}
-            // `)
+            11${form.designText}
+            12${form.deadline}
+            13${form.budget}
+            14${form.comment}
+            `),
+            sendEmail
             
-            // }> */}
+             }>
 
                 {count === 1  ?  (  //when the page count is 1 show this 
                 <div className = "field1">
@@ -271,3 +273,5 @@ export default function Form(){
         // end of form-box
     )
 }
+
+
