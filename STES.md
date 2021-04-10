@@ -27,35 +27,33 @@ https://www.youtube.com/watch?v=qlrCptpwtgs
     },
 
 
-
-# other tutorials and progresses
+# react router: 
     https://www.youtube.com/watch?v=Law7wfdg_ls
     15:35
 
-    2021 FEB 25th 
 
-    2021 Feb 26th
-    
-
+# react Form
     2021 March 5th
-    Css Form
+    Didn't end up following: Css Form
     https://codepen.io/atakan/pen/gqbIz
 
     Didn't end up following: multi step form with react & matirial ui
     https://www.youtube.com/watch?v=zT62eVxShsY
 
-    About styling 
 
+# About styling 
     basic html and css
     https://www.youtube.com/watch?v=-2LtZRi6Q0s
 
-    need to take this 
+
+# udemy web dev course 
     https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/
 
 
-# Form prev-Next react tutorial to make FORM
+# Form prev-Next react tutorial to make multi part FORM
     https://www.youtube.com/watch?v=pWOiGhFAl8w
 
 # Form.js
+
 # Form.css 
     https://www.youtube.com/watch?v=2ACrHs5o9LM
