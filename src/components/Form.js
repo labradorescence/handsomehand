@@ -1,5 +1,6 @@
-import React, {useState} from 'react'
-import './Form.css'
+import React, {useState} from 'react';
+import './Form.css';
+import emailjs from 'emailjs-com';
 
 export default function Form(){
 
@@ -33,34 +34,52 @@ export default function Form(){
         })
     }
 
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm(
+            'service_z3p8h0m', 
+            'template_ep1pzcq', 
+            e.target, 
+            'user_7Pf1rN0FgZQwrrMpFSw55'
+        )
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+    }
+    
+
+
+
     return (
         <div className = "form-box">
 
             <h5 className = "form-step"> steps: {count} of 4 </h5>
 
-            <form 
-           
-            onSubmit = { (e) => alert(`
-            submitted 
-            1${form.name}
-            2${form.phone}
-            3${form.email}
-            4${form.shippingAddress}
-            5${form.projectAddress}
+            <form onSubmit = { sendEmail }>
+            {/* //     (e) => alert(`
+            // submitted 
+            // 1${form.name}
+            // 2${form.phone}
+            // 3${form.email}
+            // 4${form.shippingAddress}
+            // 5${form.projectAddress}
     
-            6${form.customDesign}
-            7${form.description}
-            8${form.image}
-            9${form.dimensionDetails}
-            10${form.manufactureDetails}
+            // 6${form.customDesign}
+            // 7${form.description}
+            // 8${form.image}
+            // 9${form.dimensionDetails}
+            // 10${form.manufactureDetails}
     
-            11${form.designText}
-            12${form.deadline}
-            13${form.budget}
-            14${form.comment}
-            `)
+            // 11${form.designText}
+            // 12${form.deadline}
+            // 13${form.budget}
+            // 14${form.comment}
+            // `)
             
-            }>
+            // }> */}
 
                 {count === 1  ?  (  //when the page count is 1 show this 
                 <div className = "field1">
