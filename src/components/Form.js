@@ -11,17 +11,15 @@ export default function Form(){
         shippingAddress: "",
         projectAddress: "",
 
-
         customDesign: "",
-        description:"",
+        description: "",
         image: "",
-        dimensionDetails:"",
-        manufactureDetails:"",
+        dimensionDetails: "",
+        manufactureDetails: "",
 
-
-        designText:"",
-        deadline:"",
-        budget:"",
+        designText: "",
+        deadline: "",
+        budget: "",
         comment: ""
     })
 
@@ -30,9 +28,50 @@ export default function Form(){
     const updateForm = (e) => {
         setForm ({
             ...form,
-            [e.target.name]: e.target.value
+            [e.target.name]: e.target.value,
         })
+        console.log(e.target)
     }
+
+
+    // const sendEmail = (e) => {
+    //     e.preventDefault();
+    //     console.log("submit clicked")
+    
+    //     emailjs.sendForm(
+    //         'service_z3p8h0m', 
+    //         'template_svmf3nm', 
+    //         e.target, 
+    //         'user_7Pf1rN0FgZQwrrMpFSw55'
+    //     )
+    //       .then((result) => {
+    //           console.log(result.text, e.target);
+    //       }, (error) => {
+    //           console.log(error.text);
+    //       });
+    //    e.target.reset();
+    // }
+
+
+    //form
+    // const sendEmail = (e) => {
+    //     e.preventDefault();
+    //     console.log("submit clicked")
+    
+    //     emailjs.sendForm(
+    //         'service_z3p8h0m', 
+    //         'template_svmf3nm', 
+    //         form, 
+    //         'user_7Pf1rN0FgZQwrrMpFSw55'
+    //     )
+    //       .then((result) => {
+    //           console.log(result.text, form);
+    //       }, (error) => {
+    //           console.log(error.text);
+    //       });
+    //    e.target.reset();
+    // }
+
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -40,17 +79,20 @@ export default function Form(){
         emailjs.sendForm(
             'service_z3p8h0m', 
             'template_svmf3nm', 
-            e.target, 
+             e.target,  //e.target, 
             'user_7Pf1rN0FgZQwrrMpFSw55'
         )
           .then((result) => {
-              console.log(result.text, e.target);
+              console.log(
+                  result.text, 
+                  "form:::", form, 
+                  "e.target:::", e.target
+                  );
           }, (error) => {
               console.log(error.text);
           });
-          e.target.reset();
+        e.target.reset();
     }
-    
 
 
 
@@ -59,29 +101,27 @@ export default function Form(){
 
             <h5 className = "form-step"> steps: {count} of 4 </h5>
 
-            <form onSubmit = { 
-                (e) => alert(`
-            submitted 
-            1${form.name}
-            2${form.phone}
-            3${form.email}
-            4${form.shippingAddress}
-            5${form.projectAddress}
+            <form onSubmit = { sendEmail }>
+
+            {/* //     (e) => alert(`
+            // submitted 
+            // 1${form.name}
+            // 2${form.phone}
+            // 3${form.email}
+            // 4${form.shippingAddress}
+            // 5${form.projectAddress}
     
-            6${form.customDesign}
-            7${form.description}
-            8${form.image}
-            9${form.dimensionDetails}
-            10${form.manufactureDetails}
+            // 6${form.customDesign}
+            // 7${form.description}
+            // 8${form.image}
+            // 9${form.dimensionDetails}
+            // 10${form.manufactureDetails}
     
-            11${form.designText}
-            12${form.deadline}
-            13${form.budget}
-            14${form.comment}
-            `),
-            sendEmail
-            
-             }>
+            // 11${form.designText}
+            // 12${form.deadline}
+            // 13${form.budget}
+            // 14${form.comment}
+            // `) */}
 
                 {count === 1  ?  (  //when the page count is 1 show this 
                 <div className = "field1">
@@ -275,3 +315,53 @@ export default function Form(){
 }
 
 
+// {{{name}}}
+// {{{phone}}}
+// {{{email}}}
+// {{{shippingAddress}}}
+// {{{projectAddress}}}
+// {{{customDesign}}}
+// {{{description}}}
+// {{{image}}}
+// {{{dimensionDetails}}}
+// {{{manufactureDetails}}}
+// {{{designText}}}
+// {{{deadline}}}
+// {{{budget}}}
+// {{{comment}}}
+
+
+// `e.target` 
+// ```
+// <form class = "emailjs-success">
+// <div className = "field4">
+// <label> more info </label>
+ 
+// <input 
+//     type ="text" 
+//     className = "form-input"
+//     name ="designText" 
+//     placeholder="Text in the design"
+//     value ="hello world"
+// />
+
+// </form>
+// ```
+
+
+// form
+// {name: "john doe", phone: "", email: "", shippingAddress: "", projectAddress: "", …}
+// budget: ""
+// comment: ""
+// customDesign: ""
+// deadline: "2021-04-11"
+// description: ""
+// designText: "hello world"
+// dimensionDetails: ""
+// email: ""
+// image: ""
+// manufactureDetails: ""
+// name: "john doe"
+// phone: ""
+// projectAddress: ""
+// shippingAddress: ""
