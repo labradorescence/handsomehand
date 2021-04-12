@@ -31,6 +31,7 @@ export default function Form(){
             [e.target.name]: e.target.value,
         })
         console.log(e.target)
+        console.log(form)
     }
 
 
@@ -79,14 +80,12 @@ export default function Form(){
         emailjs.sendForm(
             'service_z3p8h0m', 
             'template_svmf3nm', 
-             e.target,  //e.target, 
+            '#myEmailForm',
             'user_7Pf1rN0FgZQwrrMpFSw55'
         )
           .then((result) => {
               console.log(
-                  result.text, 
-                  "form:::", form, 
-                  "e.target:::", e.target
+                  result.text
                   );
           }, (error) => {
               console.log(error.text);
@@ -101,7 +100,7 @@ export default function Form(){
 
             <h5 className = "form-step"> steps: {count} of 4 </h5>
 
-            <form onSubmit = { sendEmail }>
+            <form onSubmit = { sendEmail } id='myEmailForm' >
 
             {/* //     (e) => alert(`
             // submitted 

@@ -59,5 +59,4 @@ https://www.youtube.com/watch?v=qlrCptpwtgs
     https://www.youtube.com/watch?v=2ACrHs5o9LM
 
 # Gallery
-
 https://reactjsexample.com/photo-gallery-using-react-js/
