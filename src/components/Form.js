@@ -14,8 +14,8 @@ export default function Form(){
         customDesign: "",
         description: "",
         image: "",
-        dimensionDetails: "",
-        manufactureDetails: "",
+        dimensionDetail: "",
+        manufactureDetail: "",
 
         designText: "",
         deadline: "",
@@ -34,7 +34,7 @@ export default function Form(){
         console.log(form)
     }
 
-
+    //using `e.target`: only send the last page of the step
     // const sendEmail = (e) => {
     //     e.preventDefault();
     //     console.log("submit clicked")
@@ -42,7 +42,7 @@ export default function Form(){
     //     emailjs.sendForm(
     //         'service_z3p8h0m', 
     //         'template_svmf3nm', 
-    //         e.target, 
+    //         e.target,  ///////////////// <- here 
     //         'user_7Pf1rN0FgZQwrrMpFSw55'
     //     )
     //       .then((result) => {
@@ -54,7 +54,7 @@ export default function Form(){
     // }
 
 
-    //form
+    //using `form`: doesn't work
     // const sendEmail = (e) => {
     //     e.preventDefault();
     //     console.log("submit clicked")
@@ -62,7 +62,7 @@ export default function Form(){
     //     emailjs.sendForm(
     //         'service_z3p8h0m', 
     //         'template_svmf3nm', 
-    //         form, 
+    //         form,  ///////////////// <- here 
     //         'user_7Pf1rN0FgZQwrrMpFSw55'
     //     )
     //       .then((result) => {
@@ -74,23 +74,29 @@ export default function Form(){
     // }
 
 
+
+    //"send" method using fetch
     const sendEmail = (e) => {
         e.preventDefault();
+
+        const data = {
+            service_id: 'service_z3p8h0m',
+            template_id: 'template_svmf3nm',
+            user_id: 'user_7Pf1rN0FgZQwrrMpFSw55',
+            template_params: form
+        };
     
-        emailjs.sendForm(
-            'service_z3p8h0m', 
-            'template_svmf3nm', 
-            '#myEmailForm',
-            'user_7Pf1rN0FgZQwrrMpFSw55'
-        )
-          .then((result) => {
-              console.log(
-                  result.text
-                  );
-          }, (error) => {
-              console.log(error.text);
-          });
-        e.target.reset();
+        fetch('https://api.emailjs.com/api/v1.0/email/send', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data)
+        })
+            .then(res => res.json())
+            .then(json => setForm(json.form))  
+        
+            e.target.reset();
     }
 
 
@@ -100,7 +106,7 @@ export default function Form(){
 
             <h5 className = "form-step"> steps: {count} of 4 </h5>
 
-            <form onSubmit = { sendEmail } id='myEmailForm' >
+            <form onSubmit = { sendEmail }>
 
             {/* //     (e) => alert(`
             // submitted 
@@ -217,10 +223,10 @@ export default function Form(){
                 <textarea 
                     type ="text" 
                     className = "form-input"
-                    name ="demensionDetail" 
+                    name ="dimensionDetail" 
                     placeholder="If the design will be painted directly onto a surface, such as a wall or vehicle, please provide dimensions and a description of the surface. Please include maximum working height from ground, and any other details related to access and conditions of the working area."
                     onChange ={updateForm} 
-                    value = {form.demensionDetail}
+                    value = {form.dimensionDetail}
                 />
 
                 
