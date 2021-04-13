@@ -34,46 +34,6 @@ export default function Form(){
         console.log(form)
     }
 
-    //using `e.target`: only send the last page of the step
-    // const sendEmail = (e) => {
-    //     e.preventDefault();
-    //     console.log("submit clicked")
-    
-    //     emailjs.sendForm(
-    //         'service_z3p8h0m', 
-    //         'template_svmf3nm', 
-    //         e.target,  ///////////////// <- here 
-    //         'user_7Pf1rN0FgZQwrrMpFSw55'
-    //     )
-    //       .then((result) => {
-    //           console.log(result.text, e.target);
-    //       }, (error) => {
-    //           console.log(error.text);
-    //       });
-    //    e.target.reset();
-    // }
-
-
-    //using `form`: doesn't work
-    // const sendEmail = (e) => {
-    //     e.preventDefault();
-    //     console.log("submit clicked")
-    
-    //     emailjs.sendForm(
-    //         'service_z3p8h0m', 
-    //         'template_svmf3nm', 
-    //         form,  ///////////////// <- here 
-    //         'user_7Pf1rN0FgZQwrrMpFSw55'
-    //     )
-    //       .then((result) => {
-    //           console.log(result.text, form);
-    //       }, (error) => {
-    //           console.log(error.text);
-    //       });
-    //    e.target.reset();
-    // }
-
-
 
     //"send" method using fetch
     const sendEmail = (e) => {
@@ -90,13 +50,18 @@ export default function Form(){
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
+                'Accept': 'application/json',
             },
             body: JSON.stringify(data)
         })
-            .then(res => res.json())
-            .then(json => setForm(json.form))  
+
+        .then((result) => {
+            console.log(result.statusText);
+        }, (error) => {
+            console.log(error.statusText);
+        });
         
-            e.target.reset();
+        e.target.reset();
     }
 
 
@@ -318,55 +283,3 @@ export default function Form(){
         // end of form-box
     )
 }
-
-
-// {{{name}}}
-// {{{phone}}}
-// {{{email}}}
-// {{{shippingAddress}}}
-// {{{projectAddress}}}
-// {{{customDesign}}}
-// {{{description}}}
-// {{{image}}}
-// {{{dimensionDetails}}}
-// {{{manufactureDetails}}}
-// {{{designText}}}
-// {{{deadline}}}
-// {{{budget}}}
-// {{{comment}}}
-
-
-// `e.target` 
-// ```
-// <form class = "emailjs-success">
-// <div className = "field4">
-// <label> more info </label>
- 
-// <input 
-//     type ="text" 
-//     className = "form-input"
-//     name ="designText" 
-//     placeholder="Text in the design"
-//     value ="hello world"
-// />
-
-// </form>
-// ```
-
-
-// form
-// {name: "john doe", phone: "", email: "", shippingAddress: "", projectAddress: "", …}
-// budget: ""
-// comment: ""
-// customDesign: ""
-// deadline: "2021-04-11"
-// description: ""
-// designText: "hello world"
-// dimensionDetails: ""
-// email: ""
-// image: ""
-// manufactureDetails: ""
-// name: "john doe"
-// phone: ""
-// projectAddress: ""
-// shippingAddress: ""
