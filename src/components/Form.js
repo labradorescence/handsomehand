@@ -13,7 +13,7 @@ export default function Form(){
 
         customDesign: "",
         description: "",
-        image: "",
+        // image: "",
         dimensionDetail: "",
         manufactureDetail: "",
 
@@ -169,8 +169,8 @@ export default function Form(){
                     value = {form.description}
                 />
 
-                Please upload the reference images, including your logo
-                <input 
+                Please upload the reference images, including your logo to handsomehand@gmail.com
+                {/* <input 
                     type ="file" 
                     className = "form-input"
                     name ="image" 
@@ -178,7 +178,7 @@ export default function Form(){
                     
                     onChange ={updateForm} 
                     value = {form.image}
-                />
+                /> */}
                 </div>
                 ):null} 
 
