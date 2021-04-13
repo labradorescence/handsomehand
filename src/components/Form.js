@@ -169,7 +169,8 @@ export default function Form(){
                     value = {form.description}
                 />
 
-                Please upload the reference images, including your logo to handsomehand@gmail.com
+                Please upload the reference images, including your logo to <a href = "mailto: handsomehand@gmail.com">handsomehand@gmail.com</a>
+                
                 {/* <input 
                     type ="file" 
                     className = "form-input"
