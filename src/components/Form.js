@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import './Form.css';
 import emailjs from 'emailjs-com';
+import '../App.css';
 
 export default function Form(){
 
