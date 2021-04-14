@@ -1,5 +1,6 @@
 import React from 'react';
 import Nav from './Nav';
+import Footer from './Footer';
 
 
 export default function Portfolio (){
@@ -93,7 +94,7 @@ export default function Portfolio (){
 <a href="https://ibb.co/6H5kTby"><img src="https://i.ibb.co/HtQjbYK/image00025.jpg" alt="image00025" border="0"></a> */}
 
         </div> 
-
+        <Footer />
         </div>
     )
 }

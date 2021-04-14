@@ -4,7 +4,7 @@ import Portfolio from './components/Portfolio';
 
 import About from './components/About';
 import Contact from './components/Contact';
-import Footer from './components/Footer';
+
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css'
 
@@ -21,7 +21,7 @@ function App() {
             <Route path="/portfolio" component={Portfolio}/>
             </Switch>
 
-            <Footer />
+
 
           </div>
       </Router>

@@ -1,6 +1,8 @@
 import React from 'react';
 import Nav from './Nav';
 import '../App.css';
+import Footer from './Footer';
+
 
 
 function About() {  
@@ -32,6 +34,7 @@ function About() {
 
     <p> "Heidi from Handsome Hand Signs painted a sign for my soap company. She is such a talented artist! She helped me pick the design and colors and I couldn't have been happier. The classic artistry lends a true authentic touch to my sign that I feel proud to use to represent my business. Excellent service all around. You'd be lucky to have a sign by her!" - Sarah, owner of Goldie's Natural Beauty </p>
     </div>
+    <Footer />
     </div>
     )
 }

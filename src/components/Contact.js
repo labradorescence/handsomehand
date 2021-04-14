@@ -2,6 +2,7 @@ import React from 'react';
 import Form from './Form';
 import Nav from './Nav';
 import '../App.css';
+import Footer from './Footer';
 
 function Contact() {  
     return (
@@ -44,7 +45,8 @@ function Contact() {
     ~Any of my designs are not to be duplicated or reproduced, unless we discuss an "unlimited use" package. Reproduction without my permission may result in legal repercussions. 
     </p>
     </div>
-
+    
+    <Footer />
     </div>
     )
 }
