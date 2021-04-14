@@ -117,18 +117,19 @@ body{
 
 
 
-/* portfolio */
-.port-container{
-    margin: 1px;
-    padding: 10px;
+/************** portfolio *************/
+.portfolio-container{
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
 }
 
-img{
+.portfolio-container img{
     padding: 3vh 3vw 3vh 3vw;
 }
 
 
-/* end of portfolio */
+/************** end of portfolio ************/
 
 
 
@@ -139,6 +140,28 @@ img{
 }
 
 /* end of contact */
+
+
+
+
+
+
+
+
+
+.portfolio-container{
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -300,6 +323,18 @@ p{
         margin: 0;
         padding: 0;
     }
+
+    .portfolio-container{
+        margin: 0px;
+        padding: 0px;
+        align-items: center;
+    }
+    
+    .portfolio-container img{
+        padding: 0;
+        
+    }
+    
 
 
     .footer{
