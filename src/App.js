@@ -1,7 +1,7 @@
 import React from 'react'
 import Home from './components/Home';
 import Portfolio from './components/Portfolio';
-import Nav from './components/Nav';
+
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -13,8 +13,6 @@ function App() {
     return (
       <Router>
           <div className="app">
-
-            <Nav />
 
             <Switch>
             <Route path="/" exact component={Home}/>

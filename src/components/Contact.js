@@ -1,10 +1,12 @@
 import React from 'react';
 import Form from './Form';
 import './Contact.css';
+import Nav from './Nav';
 
 function Contact() {  
     return (
-    <div className="contactPage">       
+    <div className="contactPage">    
+    <Nav />   
     <h1> WORK WITH ME </h1>
 
     <Form></Form>

@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Nav from './Nav';
+
 
 function About() {  
     return (
-    <div className="aboutPage">       
+    <div className="aboutPage">     
+    <Nav />  
     
     <div className = "about">
     <h1> ABOUT </h1>

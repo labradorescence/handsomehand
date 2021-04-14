@@ -1,10 +1,14 @@
 import React from 'react';
 import './Portfolio.css';
+import Nav from './Nav';
+
 
 export default function Portfolio (){
 
     return (
         <div className="portfolioPage">
+        <Nav />
+        
         <h1> PORTFOLIO </h1>
         <div className = "port-container"> 
         
