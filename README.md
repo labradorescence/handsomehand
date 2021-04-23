@@ -16,6 +16,7 @@ Handsome Hand is a front-end web application where users can see the artist, Hei
 ### FAQ
 ### Multiple step form
 ### Form input sent to EmailJS
+### Responsive web design
 
 
 # Operations
