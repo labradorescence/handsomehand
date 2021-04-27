@@ -44,7 +44,7 @@ Handsome Hand is a front-end web application where users can see the artist, Hei
 # Dataflow
 
 ```
-                     inde
+                     index
                        |
                       App
                        |
