@@ -116,7 +116,8 @@ body{
     /* background-color: rgba(167, 73, 23, 0.79); */
     
     /* milky  */
-    background-color: rgba(255,255,255, 0.8);
+    /* background-color: rgba(255,255,255, 0.8); */
+    background-color: #FFF;
     flex-wrap: wrap;
     font-size: 1.2rem;
 }
