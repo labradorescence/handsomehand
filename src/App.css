@@ -151,7 +151,7 @@ img{
 /************** TESTIMONIAL *************/
 
 .testimonial{
-    margin: 5rem 0 0 0;
+    margin: 5rem 0 5rem 0;
 }
 
 .testimonial p {
@@ -159,6 +159,7 @@ img{
 }
 
 .testimonial img{
+    margin: 5rem 0 0 0;
     width: 100px;
     height: 100px;
     background: red;
@@ -174,7 +175,7 @@ img{
 
 /************** portfolio *************/
 .portfolio-container{
-    margin: 5rem 0 0 0;
+    margin: 5rem 0 5rem 0;
     padding: 0px;
     align-items: center;
     /* border: green solid .2em; */
@@ -194,7 +195,7 @@ img{
 
 /* Contact  */
 .contact-container{
-    margin: 5rem 0 0 0
+    margin: 5rem 0 5rem 0
 }
 .contactInfo {
     margin: 10vh 0 ;
