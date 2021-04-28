@@ -6,10 +6,10 @@ import Footer from './Footer';
 
 function Contact() {  
     return (
-    <div className="contactPage">    
+    <section className="contactPage">    
     <Nav />   
 
-    <div className = "contact-container">
+    <section className = "contact-container">
     <h1> WORK WITH ME </h1>
 
     <Form></Form>
@@ -48,10 +48,10 @@ function Contact() {
     </p>
     </div>
     
-    </div>
+    </section>
     
     <Footer />
-    </div>
+    </section>
     )
 }
 

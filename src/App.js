@@ -12,7 +12,7 @@ function App() {
 
     return (
       <Router>
-          <div className="app">
+          <section className="app">
 
             <Switch>
             <Route path="/" exact component={Home}/>
@@ -21,9 +21,7 @@ function App() {
             <Route path="/portfolio" component={Portfolio}/>
             </Switch>
 
-
-
-          </div>
+          </section>
       </Router>
     )
 }
