@@ -9,7 +9,7 @@ function Contact() {
     <div className="contactPage">    
     <Nav />   
 
-    <div className = "contactContainer">
+    <div className = "contact-container">
     <h1> WORK WITH ME </h1>
 
     <Form></Form>
