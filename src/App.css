@@ -23,6 +23,10 @@
     padding: 0 5vw 0 5vw;
 }
 
+h1{
+    font-size: 36px;
+}
+
 /* HOME */
 .homePage{
     background: url("https://i.ibb.co/VHz93W9/landing-background.jpg");

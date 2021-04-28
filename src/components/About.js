@@ -11,7 +11,7 @@ function About() {
     <Nav />  
     
     <div className = "about-container">
-    <h1> ABOUT HANDSOME HAND </h1>
+    <h1> A B O U T &nbsp; H A N D S O M E &nbsp; H A N D </h1>
 
     <p>
     Handsome Hand Signs is a small sign shop in Northern California specializing in lettering and graphics that are designed and painted completely by hand. Logos, Murals, Truck Lettering, Windows, Wooden Signs & Gold Leaf are among our offerings.
@@ -29,7 +29,7 @@ function About() {
 
     <div className = "testimonial">
 
-    <h2> W H A T   O U R   C L I E N T S   S A Y </h2>
+    <h1> W H A T  &nbsp; O U R  &nbsp; C L I E N T S &nbsp;  S A Y </h1>
 
     <img src ="https://i.imgur.com/ZqUSaKA.png" alt="grainBakery" /> 
 
