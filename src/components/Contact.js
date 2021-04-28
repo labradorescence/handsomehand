@@ -8,6 +8,8 @@ function Contact() {
     return (
     <div className="contactPage">    
     <Nav />   
+
+    <div className = "contactContainer">
     <h1> WORK WITH ME </h1>
 
     <Form></Form>
@@ -44,6 +46,8 @@ function Contact() {
 
     ~Any of my designs are not to be duplicated or reproduced, unless we discuss an "unlimited use" package. Reproduction without my permission may result in legal repercussions. 
     </p>
+    </div>
+    
     </div>
     
     <Footer />

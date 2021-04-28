@@ -4,11 +4,13 @@
     padding: 0;
     font-size: 14px;
     font-family: sans-serif;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
-html{height:100%;
-    width:100%}
+html{
+    height:100%;
+    width:100%
+}
 
 .app{
     width: 100%;
@@ -97,8 +99,8 @@ html{height:100%;
 /* all body */
 body{
     /* gradient */
-    background: rgb(254,132,21);
-    background: linear-gradient(90deg, rgba(254,132,21,1) 0%, rgba(255,162,127,1) 49%, rgba(200,255,0,1) 100%);
+    /* background: rgb(254,132,21);
+    background: linear-gradient(90deg, rgba(254,132,21,1) 0%, rgba(255,162,127,1) 49%, rgba(200,255,0,1) 100%); */
 
     font-family: sans-serif;
 }
@@ -108,20 +110,65 @@ body{
 
 
 /* pages background square */
-.aboutPage, .portfolioPage, .contactPage{
-    margin: 10vh ;
-
+/* .aboutPage, .portfolioPage, .contactPage{
+    margin: 0 ;
     display: flex;
-
-    padding: 10vh ;
+    padding: 0 ; */
     /* background-color: rgba(167, 73, 23, 0.79); */
     
     /* milky  */
     /* background-color: rgba(255,255,255, 0.8); */
-    background-color: #FFF;
+    /* background-color: #FFF;
     flex-wrap: wrap;
     font-size: 1.2rem;
+
+    top: 0;      
+    right: 0;   
+    bottom: 0;   
+    left: 0;
+    min-width: 100%;   
+    min-height: 100%;
+    padding: 0 5vw 0 5vw;
+} */
+
+img{
+    width: 100%;
 }
+
+
+/************** ABOUT *************/
+
+.about-container{
+    margin: 5rem 0 0 0;
+}
+
+
+/************** End of ABOUT *************/
+
+
+
+
+/************** TESTIMONIAL *************/
+
+.testimonial{
+    margin: 5rem 0 0 0;
+}
+
+.testimonial p {
+    font-style: italic;
+}
+
+.testimonial img{
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%
+}
+
+/************** End of TESTIMONIAL *************/
+
+
+
 
 
 
@@ -189,7 +236,8 @@ body{
     border: dotted #F55A00 5vw;
     /* border: 1px solid red; */
     margin: 0vw;
-    padding: 5vw ;
+    padding: 5vw;
+    background-color: beige;
 
     /* position:relative for .prevBtn and .nextBtn position:absolute; */
     position:relative; 
@@ -300,7 +348,7 @@ body{
 
 
 
-.footer{
+/* .footer{
     margin: 0vh 10vh 0vh 10vh;
     position: absolute;
     bottom: 0;
@@ -309,7 +357,7 @@ body{
     color:#fff;
     text-shadow: 0 0 5px black;
     display: flex;
-}
+} */
 
 
 
@@ -359,8 +407,8 @@ p{
      */
 
 
-    .footer{
+    /* .footer{
         margin: 0vh 10vh 0vh 0vh;
-    }
+    } */
 
 }
