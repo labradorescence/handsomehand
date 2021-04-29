@@ -166,10 +166,12 @@ img{
 }
 
 .testimonial p {
-    font-style: italic;   
+    font-style: italic;  
+     
 }
 
 .testimonial img{
+
     margin: 5rem 0 0 0;
     width: 100px;
     height: 100px;
@@ -180,11 +182,15 @@ img{
 .testimonial-container{
     display: flex;
     justify-content: space-between;
-    
 }
 
 .testimonial article{
-    width: 30%;
+    width: 25%;
+}
+
+.testimonial address{
+    font-weight: bold;
+    font-style: normal;
 }
 
 /************** End of TESTIMONIAL *************/
