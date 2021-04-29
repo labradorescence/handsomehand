@@ -12,7 +12,6 @@ export default function Portfolio (){
 
         <div className = "portfolio-container"> 
         <h1> PORTFOLIO </h1>
-                    
 
             {/* large size img */}
 

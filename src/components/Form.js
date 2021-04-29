@@ -13,7 +13,6 @@ export default function Form(){
 
         customDesign: "",
         description: "",
-        // image: "",
         dimensionDetail: "",
         manufactureDetail: "",
 
@@ -72,26 +71,6 @@ export default function Form(){
             <h5 className = "form-step"> steps: {count} of 4 </h5>
 
             <form onSubmit = { sendEmail }>
-
-            {/* //     (e) => alert(`
-            // submitted 
-            // 1${form.name}
-            // 2${form.phone}
-            // 3${form.email}
-            // 4${form.shippingAddress}
-            // 5${form.projectAddress}
-    
-            // 6${form.customDesign}
-            // 7${form.description}
-            // 8${form.image}
-            // 9${form.dimensionDetails}
-            // 10${form.manufactureDetails}
-    
-            // 11${form.designText}
-            // 12${form.deadline}
-            // 13${form.budget}
-            // 14${form.comment}
-            // `) */}
 
                 {count === 1  ?  (  //when the page count is 1 show this 
                 <div className = "field1">
@@ -154,7 +133,7 @@ export default function Form(){
                     type ="text" 
                     className = "form-input"
                     name ="customDesign"
-                    placeholder="Are you interested in a custom design, or do you already have a design to work from?" 
+                    placeholder="Are you interested in a custom design, or do you have a design to work from? Please describe your brand in detail here" 
                     onChange ={updateForm} 
                     value = {form.customDesign}
                 />
@@ -164,22 +143,13 @@ export default function Form(){
                     type ="text" 
                     className = "form-input"
                     name ="description" 
-                    placeholder="Briefly describe the project and your brand, if applicable"
+                    placeholder="“Please describe the project in as much detail as possible. Name colors and styles here. Use the email address below to upload reference photos."
                     onChange ={updateForm} 
                     value = {form.description}
                 />
 
                 Please upload the reference images, including your logo to <a href = "mailto: handsomehand@gmail.com">handsomehand@gmail.com</a>
                 
-                {/* <input 
-                    type ="file" 
-                    className = "form-input"
-                    name ="image" 
-                    placeholder="image"
-                    
-                    onChange ={updateForm} 
-                    value = {form.image}
-                /> */}
                 </div>
                 ):null} 
 
@@ -190,7 +160,7 @@ export default function Form(){
                     type ="text" 
                     className = "form-input"
                     name ="dimensionDetail" 
-                    placeholder="If the design will be painted directly onto a surface, such as a wall or vehicle, please provide dimensions and a description of the surface. Please include maximum working height from ground, and any other details related to access and conditions of the working area."
+                    placeholder="If the design will be painted directly onto a surface, please provide dimensions of the paintable area. Include working height from ground and texture of surface."
                     onChange ={updateForm} 
                     value = {form.dimensionDetail}
                 />
@@ -200,7 +170,7 @@ export default function Form(){
                     type ="text" 
                     className = "form-input"
                     name ="manufactureDetail" 
-                    placeholder="If you are ordering a manufactured sign (wood, metal, canvas etc), please provide dimensions, whether the sign will be single or double-sided, and if you would like hanging hardware to be included."
+                    placeholder="If you are ordering a fabricated sign (wood, metal, canvas etc), please include dimensions, if it will have one or two sides, and if you need hanging hardware included."
                     onChange ={updateForm} 
                     value = {form.manufactureDetail}
                 />
@@ -216,7 +186,7 @@ export default function Form(){
                     type ="text" 
                     className = "form-input"
                     name ="designText" 
-                    placeholder="Text in the design"
+                    placeholder="Exact copy (words) in the design"
                     onChange ={updateForm} 
                     value = {form.designText}
                 />

@@ -4,7 +4,7 @@ import '../App.css';
 
 function Nav() {  
     return (
-        <div className = "nav">
+        <nav className = "nav">
 
             <a href ="/" className="logo"> HANDSOME HAND </a>
             
@@ -15,7 +15,7 @@ function Nav() {
                 <Link to="/contact" className = "navCont">WORK WITH ME</Link>
             </ul>
 
-        </div>
+        </nav>
     )
 }
 
