@@ -162,10 +162,11 @@ img{
 
 .testimonial{
     margin: 5rem 0 5rem 0;
+
 }
 
 .testimonial p {
-    font-style: italic;
+    font-style: italic;   
 }
 
 .testimonial img{
@@ -174,6 +175,16 @@ img{
     height: 100px;
     background: red;
     border-radius: 50%
+}
+
+.testimonial-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.testimonial article{
+    width: 30%;
 }
 
 /************** End of TESTIMONIAL *************/
@@ -408,21 +419,13 @@ p{
         padding: 0;
     }
 
-    /* .portfolio-container{
-        margin: 0px;
-        padding: 0px;
-        align-items: center;
-    } */
-    
-    /* .portfolio-container img{
-        padding: 0;
+    .testimonial-container{
+        display: contents;
         
     }
-     */
-
-
-    /* .footer{
-        margin: 0vh 10vh 0vh 0vh;
-    } */
+    
+    .testimonial article{
+        width: 100%;
+    }
 
 }
