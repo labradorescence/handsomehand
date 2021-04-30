@@ -208,11 +208,39 @@ img{
     /* border: green solid .2em; */
 }
 
-.portfolio-container img{
+/* .portfolio-container img{
     padding: 3vh 0 3vh 0;
     width: 100%;
     height: auto;
-}
+    display: flex;
+} */
+
+.img-area {
+    /* Arrange children using flexbox */
+    display: flex;
+
+    /* ALlow images to display on multiple lines rather than a single line */
+    flex-wrap: wrap;
+
+    flex-direction: row;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    /* Container should take up only 90% of the browser, leave 5% space on each side */
+    width: 100%;
+
+
+    
+  }
+
+  .single-img{
+      display: block;
+      width: 30%;
+      padding: 1rem 1rem 1rem 1rem
+
+  }
 
 
 /************** end of portfolio ************/
