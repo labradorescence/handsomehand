@@ -45,6 +45,8 @@ h1{
 /* END of HOME */
 
 
+
+
 /* NAV */
 .nav {
     /* border: 1px solid red; */
@@ -85,7 +87,7 @@ h1{
 .navLink-container{
     /* border: 1px solid black; */
     display: flex;
-    width: 35vw;
+    width: 60%;
 
     margin: 10 20px;
     cursor: pointer;
@@ -443,6 +445,18 @@ p{
         margin: -3vh 0 0 0;
         padding: 0 0 0 0;
         height: 25vh;
+    }
+
+    .logo{
+        border: green 2px solid;
+        flex-basis: 100%;
+        padding: 2rem 0 0 0;
+        justify-content: center;
+
+    }
+
+    .navLink-container{
+        width: 100%;
     }
 
     .navLink{
