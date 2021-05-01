@@ -49,6 +49,7 @@ h1{
 .nav {
     /* border: 1px solid red; */
     display: flex;
+    flex-wrap: wrap;
     margin: 0 0 0 0;
     align-items: center;
     justify-content: space-between;
@@ -61,7 +62,14 @@ h1{
 
 .logo{
     /* border: 1px solid red; */
+    display: flex;
+    
+    flex-wrap: wrap;
+
     justify-content: flex-start;
+
+    align-items: flex-start;
+    
     flex-basis: 20%;
     
     font-size: 2rem;
@@ -74,7 +82,7 @@ h1{
     font-family: 'Krona One', 'Arial', sans-serif; 
 }
 
-.navLink{
+.navLink-container{
     /* border: 1px solid black; */
     display: flex;
     width: 35vw;

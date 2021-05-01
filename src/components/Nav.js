@@ -8,7 +8,7 @@ function Nav() {
 
             <a href ="/" className="logo"> HANDSOME HAND </a>
             
-            <ul className ="navLink">
+            <ul className ="navLink-container">
                 {/* <Link to="/" className = "navHome">HOME</Link> */}
                 <Link to="/about" className = "navAbout">ABOUT</Link>
                 <Link to="/portfolio" className = "navPort">PORTFOLIO</Link>
