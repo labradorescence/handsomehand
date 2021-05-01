@@ -106,6 +106,21 @@ h1{
     color:  white;
     text-shadow: 0 0 5px black;
     font-family: 'Krona One', 'Arial', sans-serif;
+    position: relative;
+    display: inline-block;
+}
+
+.navAboutImg {
+    width: 15rem;
+    height: 100px;
+    display: block;
+    background-image: url("https://i.imgur.com/fJJSiWb.png");
+    background-size: cover;
+}
+
+.navAboutImg:hover {
+    background-image: url("https://i.imgur.com/asK3XbA.png");
+    background-size: cover;
 }
 /* end of NAV */
 

@@ -62,3 +62,13 @@ https://www.youtube.com/watch?v=qlrCptpwtgs
 
 # Gallery
 https://reactjsexample.com/photo-gallery-using-react-js/
+
+# 3 column
+https://www.youtube.com/watch?v=j92n0p4D2B4
+
+# nav hover over ??
+
+https://tympanus.net/codrops/2020/07/01/creating-a-menu-image-animation-on-hover/
+
+
+http://www.corelangs.com/css/box/hover.html
