@@ -448,7 +448,7 @@ p{
     }
 
     .logo{
-        border: green 2px solid;
+        /* border: green 2px solid; */
         flex-basis: 100%;
         padding: 2rem 0 0 0;
         justify-content: center;
