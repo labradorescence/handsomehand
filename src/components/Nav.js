@@ -6,7 +6,9 @@ function Nav() {
     return (
         <nav className = "nav">
 
+            <div className="logo">
             <a href ="/" className="logoImg"></a>
+            </div>
             
             <ul className ="navLink-container">
                 {/* <Link to="/" className = "navHome">HOME</Link> */}
