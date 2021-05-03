@@ -54,7 +54,7 @@ h1{
     flex-wrap: wrap;
     margin: 0 0 0 0;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     height: 20vh;
 
     /* flex-basis: 100%; */
@@ -196,7 +196,6 @@ body{
     /* background: rgb(254,132,21);
     background: linear-gradient(90deg, rgba(254,132,21,1) 0%, rgba(255,162,127,1) 49%, rgba(200,255,0,1) 100%); */
     background: white;
-
     font-family: sans-serif;
 }
 /* end of all body */
@@ -204,37 +203,28 @@ body{
 
 
 
-/* pages background square */
-/* .aboutPage, .portfolioPage, .contactPage{
-    margin: 0 ;
-    display: flex;
-    padding: 0 ; */
-    /* background-color: rgba(167, 73, 23, 0.79); */
-    
-    /* milky  */
-    /* background-color: rgba(255,255,255, 0.8); */
-    /* background-color: #FFF;
-    flex-wrap: wrap;
-    font-size: 1.2rem;
-
-    top: 0;      
-    right: 0;   
-    bottom: 0;   
-    left: 0;
-    min-width: 100%;   
-    min-height: 100%;
-    padding: 0 5vw 0 5vw;
-} */
 
 img{
     width: 100%;
 }
 
 
+
+.about-container, .portfolio-container, .contact-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10rem 0 0 0;
+    /* border: green 1px solid; */
+}
+
+
+
+
 /************** ABOUT *************/
 
 .about-container{
-    margin: 5rem 0 0 0;
+    /* margin: 5rem 0 0 0; */
+    
 }
 
 .about-container h1{
@@ -293,7 +283,7 @@ img{
 
 /************** portfolio *************/
 .portfolio-container{
-    margin: 5rem 0 5rem 0;
+    /* margin: 5rem 0 5rem 0; */
     padding: 0px;
     align-items: center;
     /* border: green solid .2em; */
@@ -337,7 +327,7 @@ img{
 
 /* Contact  */
 .contact-container{
-    margin: 5rem 0 5rem 0
+    /* margin: 5rem 0 5rem 0 */
 }
 .contactInfo {
     margin: 10vh 0 ;
@@ -393,6 +383,8 @@ img{
     position:relative; 
     /* position:relative for .prevBtn and .nextBtn position:absolute; */
 }
+
+
 
 /******** h5 ********/
 

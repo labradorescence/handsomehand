@@ -10,7 +10,7 @@ function Contact() {
     <Nav />   
 
     <section className = "contact-container">
-    <h1> WORK WITH ME </h1>
+    <h1> W O R K &nbsp; W I T H  &nbsp;M E </h1>
 
     <Form></Form>
 

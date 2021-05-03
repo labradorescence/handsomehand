@@ -11,7 +11,7 @@ export default function Portfolio (){
 
 
         <div className = "portfolio-container"> 
-        <h1> PORTFOLIO </h1>
+        <h1> P O R T F O L I O </h1>
 
             {/* large size img */}
 
