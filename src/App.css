@@ -111,14 +111,16 @@ h1{
 }
 
 .navAboutImg {
-    width: 15rem;
-    height: 100px;
+    width: 10.5rem;
+    height: 1.85rem;
     display: block;
     background-image: url("https://i.imgur.com/iSQ6iii.png");
     background-size: cover;
 }
 
 .navAboutImg:hover {
+    width: 10rem;
+    height: 3.9rem;
     background-image: url("https://i.imgur.com/asK3XbA.png");
     background-size: cover;
 }
@@ -133,7 +135,7 @@ body{
     /* gradient */
     /* background: rgb(254,132,21);
     background: linear-gradient(90deg, rgba(254,132,21,1) 0%, rgba(255,162,127,1) 49%, rgba(200,255,0,1) 100%); */
-    background: black;
+    background: white;
 
     font-family: sans-serif;
 }
