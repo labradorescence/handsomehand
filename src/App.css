@@ -63,7 +63,7 @@ h1{
 }
 
 .logo{
-    /* border: 1px solid red; */
+    /* border: 1px solid red;
     display: flex;
     
     flex-wrap: wrap;
@@ -81,8 +81,26 @@ h1{
     color:white;
     text-shadow: 0 0 5px black;
     font-weight: bold; 
-    font-family: 'Krona One', 'Arial', sans-serif; 
+    font-family: 'Krona One', 'Arial', sans-serif;  */
 }
+
+.logoImg {
+    width: 10.5rem;
+    height: 1.85rem;
+    display: block;
+    background-image: url("https://i.imgur.com/zB8FN3J.png");
+    background-size: cover;
+    filter: invert(33%) sepia(84%) saturate(3070%) hue-rotate(15deg) brightness(107%) contrast(105%);
+}
+
+.logoImg:hover {
+    width: 10rem;
+    height: 3.9rem;
+    background-image: url("https://i.imgur.com/kI5kviD.png");
+    background-size: cover;
+}
+
+
 
 .navLink-container{
     /* border: 1px solid black; */
@@ -101,13 +119,17 @@ h1{
     font-size: 1.5rem;
 }
 
-.navHome, .navAbout, .navPort, .navCont{
-    text-decoration:none; 
+.logoImg, .navAboutImg, .navPortImg, .navContImg{
+    /* text-decoration:none; 
     color:  white;
     text-shadow: 0 0 5px black;
     font-family: 'Krona One', 'Arial', sans-serif;
     position: relative;
     display: inline-block;
+    filter: invert(33%) sepia(84%) saturate(3070%) hue-rotate(15deg) brightness(107%) contrast(105%); */
+
+    filter: invert(33%) sepia(84%) saturate(3070%) hue-rotate(15deg) brightness(107%) contrast(105%);
+
 }
 
 .navAboutImg {
@@ -116,6 +138,7 @@ h1{
     display: block;
     background-image: url("https://i.imgur.com/iSQ6iii.png");
     background-size: cover;
+    filter: invert(33%) sepia(84%) saturate(3070%) hue-rotate(15deg) brightness(107%) contrast(105%);
 }
 
 .navAboutImg:hover {
@@ -136,7 +159,7 @@ h1{
 .navPortImg:hover {
     width: 10rem;
     height: 3.9rem;
-    background-image: url("https://i.imgur.com/RzqF2iC.png");
+    background-image: url("https://i.imgur.com/eEsJrzA.png");
     background-size: cover;
 }
 
@@ -151,7 +174,7 @@ h1{
 .navContImg:hover {
     width: 10rem;
     height: 3.9rem;
-    background-image: url("https://i.imgur.com/asK3XbA.png");
+    background-image: url("https://i.imgur.com/crLyuBq.png");
     background-size: cover;
 }
 
