@@ -17,10 +17,10 @@ function Nav() {
 
                 {/* <Link to="/about" className = "navAbout"> ABOUT </Link> */}
 {/* 
-                logo: https://i.imgur.com/fJJSiWb.png
-                about: https://i.imgur.com/asK3XbA.png
-                contact: https://i.imgur.com/bf6mHT5.png
-                portfolio: https://i.imgur.com/4j6tcHN.png */}
+                logo: https://i.imgur.com/zB8FN3J.png
+                about: https://i.imgur.com/iSQ6iii.png
+                contact: https://i.imgur.com/lEmZrbe.png
+                portfolio: https://i.imgur.com/RzqF2iC.png */}
 
 
                 </div>
