@@ -25,8 +25,8 @@ function Nav() {
 
                 </div>
 
-                <Link to="/portfolio" className = "navPort">PORTFOLIO</Link>
-                <Link to="/contact" className = "navCont">WORK WITH ME</Link>
+                <Link to="/portfolio" className = "navPortImg"></Link>
+                <Link to="/contact" className = "navContImg"></Link>
             </ul>
 
         </nav>

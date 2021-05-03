@@ -124,6 +124,37 @@ h1{
     background-image: url("https://i.imgur.com/asK3XbA.png");
     background-size: cover;
 }
+
+.navPortImg {
+    width: 10.5rem;
+    height: 1.85rem;
+    display: block;
+    background-image: url("https://i.imgur.com/RzqF2iC.png");
+    background-size: cover;
+}
+
+.navPortImg:hover {
+    width: 10rem;
+    height: 3.9rem;
+    background-image: url("https://i.imgur.com/RzqF2iC.png");
+    background-size: cover;
+}
+
+.navContImg {
+    width: 10.5rem;
+    height: 1.85rem;
+    display: block;
+    background-image: url("https://i.imgur.com/lEmZrbe.png");
+    background-size: cover;
+}
+
+.navContImg:hover {
+    width: 10rem;
+    height: 3.9rem;
+    background-image: url("https://i.imgur.com/asK3XbA.png");
+    background-size: cover;
+}
+
 /* end of NAV */
 
 
