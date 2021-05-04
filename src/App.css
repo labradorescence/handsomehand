@@ -55,26 +55,27 @@ h1{
     margin: 0 0 0 0;
     align-items: center;
     justify-content: center;
-    height: 20vh;
+    height: 30vh;
 
-    /* flex-basis: 100%; */
-    /* flex-wrap: wrap; */
+
+    flex-basis: 100%;
+    flex-wrap: wrap;
     
 }
 
 .logo{
     /* border: 1px solid red; */
-    height: 13rem;
+    flex-basis: 100%;
+    padding: 0 0 0 0;
+    /* justify-content: center; */
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+    
     display: flex;
 
-    
     flex-wrap: wrap;
-
-    justify-content: flex-start;
-
-    align-items: center;
-    
-    flex-basis: 20%;
     
     font-size: 2rem;
     color: white;
@@ -88,11 +89,23 @@ h1{
 }
 
 .logoImg {
-    width: 31rem;
-    height: 2.1rem;
-    display: block;
+
+
     background-image: url("https://i.imgur.com/zB8FN3J.png");
-    background-size: cover;
+    background-size: 100%;
+
+    /* background-size: 100% of the width and auto height */
+
+    background-repeat: no-repeat;
+
+    width: 84.65rem;
+    height: 5.7rem;
+
+    display: block;
+    
+    justify-content: flex-start;
+
+    /* image color to orange */
     filter: invert(33%) sepia(84%) saturate(3070%) hue-rotate(15deg) brightness(107%) contrast(105%);
 }
 
@@ -122,22 +135,13 @@ h1{
     font-size: 1.5rem;
 }
 
-.logoImg, .navAboutImg, .navPortImg, .navContImg{
-    /* text-decoration:none; 
-    color:  white;
-    text-shadow: 0 0 5px black;
-    font-family: 'Krona One', 'Arial', sans-serif;
-    position: relative;
-    display: inline-block;
-    filter: invert(33%) sepia(84%) saturate(3070%) hue-rotate(15deg) brightness(107%) contrast(105%); */
 
+.logoImg, .navAboutImg, .navPortImg, .navContImg{
     filter: invert(33%) sepia(84%) saturate(3070%) hue-rotate(15deg) brightness(107%) contrast(105%)
 
     drop-shadow(0px 0px 10px #FFD8C2);
-
-
-
 }
+
 
 .navAboutImg {
     width: 10.5rem;
@@ -145,7 +149,10 @@ h1{
     display: block;
     background-image: url("https://i.imgur.com/iSQ6iii.png");
     background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 
 .navAboutImg:hover {
     width: 10rem;
@@ -160,26 +167,34 @@ h1{
     display: block;
     background-image: url("https://i.imgur.com/RzqF2iC.png");
     background-size: cover;
+    
+
 }
 
 .navPortImg:hover {
+    /* 4504 × 1032 */
+
     width: 16rem;
-    height: 3.9rem;
+    height: 3rem;
+
+    /* width: 4.504rem;
+    height: 1.032rem; */
     background-image: url("https://i.imgur.com/eEsJrzA.png");
     background-size: cover;
 }
 
 .navContImg {
-    width: 10.5rem;
+    width: 23rem;
     height: 1.85rem;
     display: block;
     background-image: url("https://i.imgur.com/lEmZrbe.png");
     background-size: cover;
+    
 }
 
 .navContImg:hover {
-    width: 10rem;
-    height: 3.9rem;
+    width: 16rem;
+    height: 4rem;
     background-image: url("https://i.imgur.com/crLyuBq.png");
     background-size: cover;
 }
@@ -525,9 +540,11 @@ p{
     .logo{
         /* border: green 2px solid; */
         flex-basis: 100%;
-        padding: 2rem 0 0 0;
+        padding: 0 0 0 0;
         justify-content: center;
-
+        align-items: center;
+        align-self: center;
+        align-content: center;
     }
 
     .navLink-container{
