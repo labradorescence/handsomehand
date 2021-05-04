@@ -72,3 +72,6 @@ https://tympanus.net/codrops/2020/07/01/creating-a-menu-image-animation-on-hover
 
 
 http://www.corelangs.com/css/box/hover.html
+
+# nav image sizing
+https://www.youtube.com/watch?v=VF5kD6QEEag

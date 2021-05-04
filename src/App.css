@@ -121,7 +121,7 @@ h1{
 .navLink-container{
     /* border: 1px solid black; */
     display: flex;
-    width: 60%;
+    width: 100%;
 
     margin: 10 20px;
     cursor: pointer;
@@ -162,7 +162,7 @@ h1{
 }
 
 .navPortImg {
-    width: 16rem;
+    width: 17.6rem;
     height: 1.85rem;
     display: block;
     background-image: url("https://i.imgur.com/RzqF2iC.png");
