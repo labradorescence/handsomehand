@@ -6,17 +6,12 @@ function Nav() {
     return (
         <nav className = "nav">
 
-            <div className="logo">
+            <div className="logo-container">
             <a href ="/" className="logoImg"></a>
             </div>
             
             <ul className ="navLink-container">
-                {/* <Link to="/" className = "navHome">HOME</Link> */}
-
-                <div clasName = "navAbout">
                 <Link to="/about" className = "navAboutImg"></Link>
-                </div>
-
                 <Link to="/portfolio" className = "navPortImg"></Link>
                 <Link to="/contact" className = "navContImg"></Link>
             </ul>

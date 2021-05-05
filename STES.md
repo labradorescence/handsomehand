@@ -75,3 +75,20 @@ http://www.corelangs.com/css/box/hover.html
 
 # nav image sizing
 https://www.youtube.com/watch?v=VF5kD6QEEag
+
+```css
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.image{
+    width: 100%;
+    <!-- 100% of the current screen -->
+    padding-top: 42%;
+    /* instead of height, use the padding top, which acts as height in responsive way */
+    background: url() no-repeat center;
+    background-size: cover;
+}
+
+```
