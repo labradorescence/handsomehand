@@ -9,8 +9,6 @@ function Home() {
     <div className="homePage">   
     <Nav/>
     <Footer />
-
-
     </div>
     )
 }

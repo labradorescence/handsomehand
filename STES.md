@@ -97,3 +97,6 @@ https://www.youtube.com/watch?v=VF5kD6QEEag
 https://codepen.io/sosuke/pen/Pjoqqp
 
 change the font-family
+
+# adding personal SSH key to work computer 
+https://dev.to/raven404/managing-multiple-github-account-using-git-in-windows-2m0h
