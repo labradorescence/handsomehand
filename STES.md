@@ -100,3 +100,5 @@ change the font-family
 
 # adding personal SSH key to work computer 
 https://dev.to/raven404/managing-multiple-github-account-using-git-in-windows-2m0h
+
+id_rsa_orange

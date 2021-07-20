@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import emailjs from 'emailjs-com';
+import {useHistory} from "react-router"
 import '../App.css';
 
 export default function Form(){
@@ -29,13 +29,19 @@ export default function Form(){
             ...form,
             [e.target.name]: e.target.value,
         })
-        console.log(e.target)
-        console.log(form)
+        // console.log(e.target)
+        // console.log(form)
     }
+
+
+    //onSubmit redirect to a new page
+    //use history.push. import from react-router-dom
+    const history = useHistory();
 
 
     //"send" method using fetch
     const sendEmail = (e) => {
+
         e.preventDefault();
 
         const data = {
@@ -44,6 +50,7 @@ export default function Form(){
             user_id: 'user_7Pf1rN0FgZQwrrMpFSw55',
             template_params: form
         };
+
     
         fetch('https://api.emailjs.com/api/v1.0/email/send', {
             method: 'POST',
@@ -61,6 +68,8 @@ export default function Form(){
         });
         
         e.target.reset();
+
+        history.push("/portfolio")     //onSubmit redirect to a new page
     }
 
 
