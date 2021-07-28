@@ -102,3 +102,35 @@ change the font-family
 https://dev.to/raven404/managing-multiple-github-account-using-git-in-windows-2m0h
 
 id_rsa_orange
+
+
+# form on submit refresh the page or re-direct to a new page. 
+
+$Form.js
+```js
+import {useHistory} from "react-router"
+
+export default function Form(){
+
+    const history = useHistory();
+
+    const sendEmail = (e) => {
+        history.push("/portfolio")     //onSubmit redirect to a new page
+    }
+
+    return(
+        <form onsubmit = {sendEmail}>
+        </form>
+    )
+}
+```
+
+
+
+# To Do 
+
+-new nav bar menu 
+-form submit confirm page
+-font
+-form css 
+-add more photos on portfolio
