@@ -12,8 +12,6 @@ function Contact() {
     <section className = "contact-container">
     <h1> W O R K &nbsp; W I T H  &nbsp;M E </h1>
 
-    <Form></Form>
-
     <div className="contactInfo">
     <p>
     Handmade lettering is a priceless investment for any business, brand or personal project that needs to stand apart. When you work with me, you are getting the benefit of 12 years of letterform obsession, a keen eye for color and spatial design, as well as thoughtful and generous consulting around small design decisions that make all the difference.
@@ -30,6 +28,8 @@ function Contact() {
     <p>
     Thank you for choosing hand painted signs! I look forward to hearing from you.
     </p>
+
+    <Form></Form>
 
     <p>
     Terms:<br></br>

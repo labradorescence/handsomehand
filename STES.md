@@ -129,8 +129,17 @@ export default function Form(){
 
 # To Do 
 
--new nav bar menu 
--form submit confirm page
--font
+-new nav bar menu: filled titles/italic caps
+-form submit confirm page with smile
+-font: Josefin Sans for Titles, and Monteserrat for body text.
 -form css 
+
+
+# done
+
 -add more photos on portfolio
+-change the about page's photo, solo coffee: "refresh" and "brew"
+-change the about page's photo, goldies
+-add second and fouth pics to portfolio
+-remove form border
+-form change the order
