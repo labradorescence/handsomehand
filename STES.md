@@ -103,6 +103,10 @@ https://dev.to/raven404/managing-multiple-github-account-using-git-in-windows-2m
 
 id_rsa_orange
 
+https://vladmihalcea.com/tutorials/git/windows-git-ssh-authentication-to-github/
+
+ps ssh guide
+https://powerschoolgroup.atlassian.net/wiki/spaces/DevZone/pages/1226302/Setup+New+Dev+Environment+in+Blank+Dev-box+for+PowerSchool+Core+SIS
 
 # form on submit refresh the page or re-direct to a new page. 
 
