@@ -40,13 +40,13 @@ function About() {
     </article>
 
     <article>
-    <img src="https://i.imgur.com/8uKSDCt.png" alt="solocoffee" />
+    <img src="https://i.imgur.com/RbUw83V.jpg" alt="solocoffee" />
 
     <p>"Heidi has been sólo’s sign painter since 2013. We started off with a small menu sign, then an entrance sign, and more. Over the years sólo grew as a cafe and Heidi grew as a sign painter, our signs and our relationship did as well. Sólo wouldn’t be the same without the creative touch of Heidi’s intentional and creative signs sprinkled about the cafe. I have always trusted her vision and given her complete creative control, especially after years of getting to know each other. I am always blown away whether it's a new version of the same sign or a completely new concept shows up, revealing her development and growth as an artist over time."</p> <address>- Lauren, owner of <a href="http://www.soloespressobar.com/photos/fq9oqzo9dm2g02agbt13ton7w3r2r3" target="_blank" rel = "noopener noreferrer" >sólo espresso </a></address>
     </article>
 
     <article>
-    <img src="https://cdn.shopify.com/s/files/1/0636/6251/products/IMG_0152.jpg?v=1598706212" alt = "goldie-testimonial"></img>
+    <img src="https://i.imgur.com/awbpA3X.jpg" alt = "goldie-testimonial"></img>
     <p> "Heidi from Handsome Hand Signs painted a sign for my soap company. She is such a talented artist! She helped me pick the design and colors and I couldn't have been happier. The classic artistry lends a true authentic touch to my sign that I feel proud to use to represent my business. Excellent service all around. You'd be lucky to have a sign by her!" </p> <address>- Sarah, owner of <a href="https://goldiessoap.com/collections/natural-bar-soaps/products/little-wing-moisturizing-soap" target="_blank" rel = "noopener noreferrer" >Goldie's Natural Beauty</a> </address>
     </article>
 

@@ -97,3 +97,49 @@ https://www.youtube.com/watch?v=VF5kD6QEEag
 https://codepen.io/sosuke/pen/Pjoqqp
 
 change the font-family
+
+# adding personal SSH key to work computer 
+https://dev.to/raven404/managing-multiple-github-account-using-git-in-windows-2m0h
+
+id_rsa_orange
+
+https://vladmihalcea.com/tutorials/git/windows-git-ssh-authentication-to-github/
+
+ps ssh guide
+https://powerschoolgroup.atlassian.net/wiki/spaces/DevZone/pages/1226302/Setup+New+Dev+Environment+in+Blank+Dev-box+for+PowerSchool+Core+SIS
+
+# form on submit refresh the page or re-direct to a new page. 
+
+$Form.js
+```js
+import {useHistory} from "react-router"
+
+export default function Form(){
+
+    const history = useHistory();
+
+    const sendEmail = (e) => {
+        history.push("/portfolio")     //onSubmit redirect to a new page
+    }
+
+    return(
+        <form onsubmit = {sendEmail}>
+        </form>
+    )
+}
+```
+
+# To Do 
+-new nav bar menu: filled titles/italic caps
+-form submit confirm page with smile
+-font: Josefin Sans for Titles, and Monteserrat for body text.
+-form css 
+
+
+# done
+-add more photos on portfolio
+-change the about page's photo, solo coffee: "refresh" and "brew"
+-change the about page's photo, goldies
+-add second and fouth pics to portfolio
+-remove form border
+-form change the order
