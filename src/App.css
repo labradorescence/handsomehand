@@ -154,15 +154,15 @@ h1{
 }
 
 
-.navAboutImg:hover {
+/* .navAboutImg:hover {
     width: 10rem;
     height: 3.9rem;
     background-image: url("https://i.imgur.com/asK3XbA.png");
     background-size: cover;
-}
+} */
 
 .navPortImg {
-    width: 12rem;
+    width: 13rem;
     height: 1.85rem;
     /* width: 100%;
     height: 100%; */
@@ -172,17 +172,14 @@ h1{
 
 }
 
-.navPortImg:hover {
-    /* 4504 × 1032 */
+/* .navPortImg:hover {
 
     width: 16rem;
     height: 3rem;
 
-    /* width: 4.504rem;
-    height: 1.032rem; */
     background-image: url("https://i.imgur.com/eEsJrzA.png");
     background-size: cover;
-}
+} */
 
 .navContImg {
     width: 10rem;
@@ -192,12 +189,12 @@ h1{
     background-size: cover;
 }
 
-.navContImg:hover {
+/* .navContImg:hover {
     width: 16rem;
     height: 4rem;
     background-image: url("https://i.imgur.com/crLyuBq.png");
     background-size: cover;
-}
+} */
 
 /* end of NAV */
 
