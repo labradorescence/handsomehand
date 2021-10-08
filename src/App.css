@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     font-size: 16px;
-    font-family: 'Arial', sans-serif;
+    /* font-family: 'Arial', sans-serif; */
     /* border: 1px solid red; */
 }
 
@@ -24,7 +24,7 @@
 }
 
 h1{
-    font-family: 'Krona One';
+    font-family: 'Josefin Sans';
     font-size: 36px;
 }
 
@@ -86,7 +86,7 @@ h1{
 }
 
 .logoImg {
-    background-image: url("https://i.imgur.com/zB8FN3J.png");
+    background-image: url("https://i.imgur.com/rROrwBy.png");
     background-size: 100%;
 
     /* background-size: 100% of the width and auto height */
@@ -141,10 +141,10 @@ h1{
 
 
 .navAboutImg {
-    width: 10.5rem;
+    width: 8rem;
     height: 1.85rem;
     display: block;
-    background-image: url("https://i.imgur.com/iSQ6iii.png");
+    background-image: url("https://i.imgur.com/QgNz1cN.png");
     background-size: cover;
     display: flex;
     flex-wrap: wrap;
@@ -159,10 +159,10 @@ h1{
 }
 
 .navPortImg {
-    width: 17.6rem;
+    width: 12rem;
     height: 1.85rem;
     display: block;
-    background-image: url("https://i.imgur.com/RzqF2iC.png");
+    background-image: url("https://i.imgur.com/6AGtXxR.png");
     background-size: cover;
 
 }
@@ -180,10 +180,10 @@ h1{
 }
 
 .navContImg {
-    width: 23rem;
+    width: 10rem;
     height: 1.85rem;
     display: block;
-    background-image: url("https://i.imgur.com/lEmZrbe.png");
+    background-image: url("https://i.imgur.com/gL5Ngzk.png");
     background-size: cover;
 }
 
@@ -203,7 +203,7 @@ h1{
 /* all body */
 body{
     background: white;
-    font-family: sans-serif;
+    font-family: 'Montserrat';
 }
 /* end of all body */
 
@@ -330,14 +330,22 @@ img{
 
 
 
-
-
 /* Contact  */
 .contact-container{
     /* margin: 5rem 0 5rem 0 */
+    /* border: red 1px solid; */
 }
 .contactInfo {
-    margin: 10vh 0 ;
+    margin: 3vh 0 ;
+    /* border: red 1px solid; */
+}
+.contactInfo > p{
+    margin: -1rem 0 0 0;
+    /* border: red 1px solid; */
+}
+
+.contactInfo > .term{
+    margin: 5vh 0 0 0;
 }
 
 /* end of contact */

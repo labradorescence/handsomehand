@@ -129,13 +129,6 @@ export default function Form(){
 }
 ```
 
-# To Do 
--new nav bar menu: filled titles/italic caps
--form submit confirm page with smile
--font: Josefin Sans for Titles, and Monteserrat for body text.
--form css 
-
-
 # done
 -add more photos on portfolio
 -change the about page's photo, solo coffee: "refresh" and "brew"
@@ -143,3 +136,11 @@ export default function Form(){
 -add second and fouth pics to portfolio
 -remove form border
 -form change the order
+
+
+# To Do 
+-new nav bar menu: filled titles/caps
+-form submit confirm page with smile
+-font: Josefin Sans for Titles, and Monteserrat for body text.
+-form css
+-image file and map 

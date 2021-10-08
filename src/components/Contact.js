@@ -31,7 +31,7 @@ function Contact() {
 
     <Form></Form>
 
-    <p>
+    <p className="term">
     Terms:<br></br>
 
     ~Once you receive a quote, I ask for 50% to begin work, and 50% upon completion of the project or receipt of the sign. <br></br>
