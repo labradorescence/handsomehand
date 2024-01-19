@@ -36,7 +36,7 @@ function Contact() {
 
     ~Once you receive a quote, I ask for 50% to begin work, and 50% upon completion of the project or receipt of the sign. <br></br>
 
-    ~For fabricated wooden signs, you may be charged CA sales tax at a rate of .0725% <br></br>
+    ~For fabricated wooden signs, you may be charged WA sales tax <br></br>
 
     ~I offer shipping via USPS for signs under 65 lbs and 115 total inches <br></br>
 
