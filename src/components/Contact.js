@@ -14,7 +14,7 @@ function Contact() {
 
     <div className="contactInfo">
     <p>
-    Handmade lettering is a priceless investment for any business, brand or personal project that needs to stand apart. When you work with me, you are getting the benefit of 12 years of letterform obsession, a keen eye for color and spatial design, as well as thoughtful and generous consulting around small design decisions that make all the difference.
+    Handmade lettering is a priceless investment for any business, brand or personal project that needs to stand apart. When you work with me, you are getting the benefit of 15 years of letterform obsession, a keen eye for color and spatial design, as well as thoughtful and generous consulting around small design decisions that make all the difference.
     </p>
 
     <p>
@@ -22,7 +22,7 @@ function Contact() {
     </p>
 
     <p>
-    handsomehandsigns@gmail.com
+    Hello@handsomehand.com 
     </p>
 
     <p>

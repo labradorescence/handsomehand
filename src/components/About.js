@@ -14,7 +14,7 @@ function About() {
     <h1> A B O U T &nbsp; H A N D S O M E &nbsp; H A N D </h1>
 
     <p>
-    Handsome Hand Signs is a small sign shop in Northern California specializing in lettering and graphics that are designed and painted completely by hand. Logos, Murals, Truck Lettering, Windows, Wooden Signs & Gold Leaf are among our offerings.
+    Handsome Hand Signs is a small sign shop currently based out of Port Townsend, Wa, specializing in lettering and graphics that are designed and painted completely by hand. Logos, Murals, Truck Lettering, Windows, Wooden Signs & Gold Leaf are among our offerings.
     </p>
 
     <p>
