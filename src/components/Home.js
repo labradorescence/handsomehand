@@ -8,7 +8,6 @@ function Home() {
     return (
     <div className="homePage">   
     <Nav/>
-    <Footer />
     </div>
     )
 }
